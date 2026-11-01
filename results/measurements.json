@@ -1,0 +1,154 @@
+{
+  "schema": 1,
+  "as_of": "2026-11-01",
+  "status": "closed_without_target_achievement",
+  "scores": [
+    {
+      "id": "phase1-48",
+      "scope": "official_recorded",
+      "bpb": 0.9471819509,
+      "core": null,
+      "note": "Recorded third place at Round 1 close; not comparable to Round 2 budget"
+    },
+    {
+      "id": "phase2-250",
+      "scope": "official_recorded",
+      "bpb": 0.723357747183193,
+      "core": 0.29923821662428324,
+      "note": "Best recorded combined-score entry at campaign closure"
+    },
+    {
+      "id": "phase2-263",
+      "scope": "official_recorded",
+      "bpb": 0.7166185500833089,
+      "core": 0.2879724035199806,
+      "note": "Lower BPB, lower CORE than 250"
+    },
+    {
+      "id": "phase2-274",
+      "scope": "official_recorded",
+      "bpb": 0.7184405240401447,
+      "core": 0.29365415640585907,
+      "note": "Separate from later fixed-checkpoint local evaluation"
+    },
+    {
+      "id": "short-bank-01",
+      "scope": "local_continuation_rounded",
+      "bpb": 0.718494,
+      "core": 0.3004
+    },
+    {
+      "id": "short-bank-02-related",
+      "scope": "local_continuation_rounded",
+      "bpb": 0.719853,
+      "core": 0.306
+    },
+    {
+      "id": "short-bank-09-related",
+      "scope": "local_continuation_rounded",
+      "bpb": null,
+      "core": 0.3066,
+      "note": "BPB omitted from this curated summary"
+    },
+    {
+      "id": "phase2-339-random",
+      "scope": "local_full_budget",
+      "bpb": 0.7350489795834857,
+      "core": 0.272052667157614
+    },
+    {
+      "id": "phase2-338-related",
+      "scope": "local_full_budget",
+      "bpb": 0.735311424697833,
+      "core": 0.25786962702437416
+    },
+    {
+      "id": "phase2-356-d40",
+      "scope": "local_full_budget",
+      "bpb": 0.7330519841024089,
+      "core": 0.28574827464022967
+    },
+    {
+      "id": "prefix-cache-control",
+      "scope": "local_fixed_checkpoint",
+      "bpb": 0.7223779411613729,
+      "core": 0.3009508642191773
+    },
+    {
+      "id": "prefix-cache-on",
+      "scope": "local_fixed_checkpoint_diagnostic",
+      "bpb": 0.7235036894758521,
+      "core": 0.3023522474069143,
+      "note": "Original wrapper did not satisfy checkpoint parameter accounting; not eligible submission"
+    }
+  ],
+  "shared_prefix_poc": {
+    "scope": "local_heldout_training_documents_not_CORE",
+    "sequence_length": 1024,
+    "fit_documents": 64,
+    "heldout_documents": 32,
+    "updates_per_arm": 200,
+    "trainable_parameters_single_control": 884736,
+    "trainable_parameters_per_branch": 442368,
+    "fixed_mixture_weight": 0.5,
+    "nll_original": 2.0535412887111306,
+    "nll_unadapted_split": 2.0535324020311236,
+    "nll_rank8_control": 2.1058224830776453,
+    "nll_branch_a": 2.1031699860468507,
+    "nll_branch_b": 2.104448196478188,
+    "nll_mixture": 2.1012134682387114,
+    "decision": "negative_for_this_recipe",
+    "core_measured": false,
+    "official_bpb_measured": false,
+    "final_run_seconds": 519.4175,
+    "engineering_time_excluded": true
+  },
+  "provenance": [
+    {
+      "archive": "phase1",
+      "relative_record": "experiments/LEDGER.md",
+      "sha256": "e9bce49134090c8d224c455f190516d7b77bf6b7a9f63ca2de9626a357c1b3f3"
+    },
+    {
+      "archive": "phase2",
+      "relative_record": "experiments/LEDGER.md",
+      "sha256": "db0bd5a6b64a08ee2f814a6192a15f2c742c5402f10ff13559cd8455d2146be9"
+    },
+    {
+      "archive": "phase2",
+      "relative_record": "docs/bitacora/20261030T003016Z-banco-04-via-sitio11-y-banco-03-agrupa-azar.md",
+      "sha256": "7f871848f8deeff7d781971ed3b986860361b6cae6cab4dc586c787554c3a357"
+    },
+    {
+      "archive": "phase2",
+      "relative_record": "docs/bitacora/20261030T070050Z-banco09-core0-3066-331-reparado-corre-y-censo-nativo-exige-o.md",
+      "sha256": "03402c289d090c4195f4e71b22ae2d1727d9860dd2c45a85ebcf178d600d668b"
+    },
+    {
+      "archive": "phase2",
+      "relative_record": "research/ciclo18/codex/resultado-agrupa-desde-cero.md",
+      "sha256": "9f59687483dc042c028ac2284f766180955359628c4ea68b43b13e8e1d5bbb3a"
+    },
+    {
+      "archive": "phase2",
+      "relative_record": "research/ciclo18/codex/resultado-cache-prefijo.md",
+      "sha256": "fbfedb02103f61dddd47f46d54a9716b887514e45712473c561db63ef27ba222"
+    },
+    {
+      "archive": "phase2",
+      "relative_record": "docs/bitacora/20261031T211429Z-356-completa-valida-pero-core0-285748-ybpb0-733052-no-promov.md",
+      "sha256": "787330ae3c177e7d6c3e1aaa5bc40a6a2b153551da3985e124d5a20b272eae7e"
+    },
+    {
+      "archive": "phase2",
+      "relative_record": "docs/bitacora/20261101T151039Z-poc-dos-colas-aprende-el-ajuste-pero-empeora-la-perdida-rese.md",
+      "sha256": "97c302b16e3f6b0edd9b61291def6ecdceef119a70d88efb3d1546412b3bb4ca"
+    }
+  ],
+  "limitations": [
+    "Historical records transcribed; no retraining for publication",
+    "Different scopes are not interchangeable paired comparisons",
+    "No raw corpus, evaluation content or document manifests distributed",
+    "No proof of statistical significance or universal mechanism failure"
+  ]
+}

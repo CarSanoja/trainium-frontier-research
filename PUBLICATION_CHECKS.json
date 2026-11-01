@@ -1,0 +1,21 @@
+{
+  "utc": "2026-11-01T17:49:45.273676+00:00",
+  "offline_verification": {
+    "source_files": 513,
+    "python_files": 483,
+    "local_links": 50,
+    "score_rows": 12,
+    "errors": []
+  },
+  "secret_scan": {
+    "tool": "gitleaks",
+    "version": "8.30.1",
+    "scope": "public working tree",
+    "findings": 0
+  },
+  "private_identifier_scan": {
+    "findings": 0
+  },
+  "training_or_cloud_resources_started": false,
+  "scope": "Integrity, syntax, documentation links and disclosure review; no Neuron or metric revalidation"
+}

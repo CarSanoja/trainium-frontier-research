@@ -1,0 +1,3085 @@
+{
+  "schema": 1,
+  "publication_date": "2026-11-01",
+  "policy": "Explicit source allowlist. Byte-identical source snapshots. No datasets, weights, raw prompts, private operational records or original Git history.",
+  "files": [
+    {
+      "path": "packages/phase2-250/BANDERAS",
+      "source": "phase2/submissions/250-pila-e-fp8-d18-bwdmat-d24mm-memhost-384m-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/BANDERAS",
+      "sha256": "4d838650dfcbc7cad149dfa42547c523b39c6e8ffda89926430a9f5786bc0740",
+      "bytes": 612
+    },
+    {
+      "path": "packages/phase2-250/COMANDO",
+      "source": "phase2/submissions/250-pila-e-fp8-d18-bwdmat-d24mm-memhost-384m-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/COMANDO",
+      "sha256": "ba1490aa743585bb491b864c0d15936c83c74c03a906d23a123f79d6a07d2196",
+      "bytes": 88
+    },
+    {
+      "path": "packages/phase2-250/ce_trozos.py",
+      "source": "phase2/submissions/250-pila-e-fp8-d18-bwdmat-d24mm-memhost-384m-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/ce_trozos.py",
+      "sha256": "b0ff8a1fcaf60512d946f32a02d0ef27fff33da0f31d6c0dac901b76182653d3",
+      "bytes": 2287
+    },
+    {
+      "path": "packages/phase2-250/cefa_nucleo.py",
+      "source": "phase2/submissions/250-pila-e-fp8-d18-bwdmat-d24mm-memhost-384m-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/cefa_nucleo.py",
+      "sha256": "73a1f4ca8a97849ba4679af492c03ebb1a2bf2fd3d34ff199701f4db8933acc7",
+      "bytes": 4576
+    },
+    {
+      "path": "packages/phase2-250/cefa_perdida.py",
+      "source": "phase2/submissions/250-pila-e-fp8-d18-bwdmat-d24mm-memhost-384m-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/cefa_perdida.py",
+      "sha256": "60a9ac4f94e448e44e34daadf8cba1e707493c6131db5dd280d6e31c5b455ad3",
+      "bytes": 2075
+    },
+    {
+      "path": "packages/phase2-250/envio/BANDERAS",
+      "source": "phase2/submissions/250-pila-e-fp8-d18-bwdmat-d24mm-memhost-384m-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/envio/BANDERAS",
+      "sha256": "4d838650dfcbc7cad149dfa42547c523b39c6e8ffda89926430a9f5786bc0740",
+      "bytes": 612
+    },
+    {
+      "path": "packages/phase2-250/envio/COMANDO",
+      "source": "phase2/submissions/250-pila-e-fp8-d18-bwdmat-d24mm-memhost-384m-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/envio/COMANDO",
+      "sha256": "ba1490aa743585bb491b864c0d15936c83c74c03a906d23a123f79d6a07d2196",
+      "bytes": 88
+    },
+    {
+      "path": "packages/phase2-250/envio/inference.py",
+      "source": "phase2/submissions/250-pila-e-fp8-d18-bwdmat-d24mm-memhost-384m-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/envio/inference.py",
+      "sha256": "40cace5e521e271643c7352de067a53ecef046bc3a05e007ea029cbd601d3275",
+      "bytes": 2114
+    },
+    {
+      "path": "packages/phase2-250/envio/train.py",
+      "source": "phase2/submissions/250-pila-e-fp8-d18-bwdmat-d24mm-memhost-384m-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/envio/train.py",
+      "sha256": "2573a76436d4cb53eec27a956ab26e8d447a17e994db350408ac2d091e5ad501",
+      "bytes": 333694
+    },
+    {
+      "path": "packages/phase2-250/inference.py",
+      "source": "phase2/submissions/250-pila-e-fp8-d18-bwdmat-d24mm-memhost-384m-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/inference.py",
+      "sha256": "40cace5e521e271643c7352de067a53ecef046bc3a05e007ea029cbd601d3275",
+      "bytes": 2114
+    },
+    {
+      "path": "packages/phase2-250/kernels/__init__.py",
+      "source": "phase2/submissions/250-pila-e-fp8-d18-bwdmat-d24mm-memhost-384m-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/kernels/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "packages/phase2-250/kernels/emb_dw.py",
+      "source": "phase2/submissions/250-pila-e-fp8-d18-bwdmat-d24mm-memhost-384m-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/kernels/emb_dw.py",
+      "sha256": "20655612b9a4117a2e58fac557cc48431810046712d83c20d59cafa413263207",
+      "bytes": 4684
+    },
+    {
+      "path": "packages/phase2-250/kernels/emb_op.py",
+      "source": "phase2/submissions/250-pila-e-fp8-d18-bwdmat-d24mm-memhost-384m-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/kernels/emb_op.py",
+      "sha256": "77704339033d16fc1e8123411610459d29287d78c495cec8336dc1c916e6c7ce",
+      "bytes": 3699
+    },
+    {
+      "path": "packages/phase2-250/kernels/emb_puerta.py",
+      "source": "phase2/submissions/250-pila-e-fp8-d18-bwdmat-d24mm-memhost-384m-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/kernels/emb_puerta.py",
+      "sha256": "dee18aaf3834211cac3457b3afcfda45a5f0bedafd5b8038e133b3707b6bc77d",
+      "bytes": 3216
+    },
+    {
+      "path": "packages/phase2-250/kernels/fp8_mlp_bwd_act.py",
+      "source": "phase2/submissions/250-pila-e-fp8-d18-bwdmat-d24mm-memhost-384m-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/kernels/fp8_mlp_bwd_act.py",
+      "sha256": "73cdd01efeed6659e713641261b2bdab00b55eb669b4cf925a2554d99e22305f",
+      "bytes": 11255
+    },
+    {
+      "path": "packages/phase2-250/kernels/fp8_mlp_comun.py",
+      "source": "phase2/submissions/250-pila-e-fp8-d18-bwdmat-d24mm-memhost-384m-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/kernels/fp8_mlp_comun.py",
+      "sha256": "58f07d29b61d7a7c0f14dceebcfaf5966191a3cc14c5ab88936ff19216ac20c5",
+      "bytes": 1698
+    },
+    {
+      "path": "packages/phase2-250/kernels/fp8_mlp_dw.py",
+      "source": "phase2/submissions/250-pila-e-fp8-d18-bwdmat-d24mm-memhost-384m-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/kernels/fp8_mlp_dw.py",
+      "sha256": "7194212d54a58af64d733ef0a3e8475a57167d6d10c70ba18a70cea1a1d4c66b",
+      "bytes": 2562
+    },
+    {
+      "path": "packages/phase2-250/kernels/fp8_mlp_emula.py",
+      "source": "phase2/submissions/250-pila-e-fp8-d18-bwdmat-d24mm-memhost-384m-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/kernels/fp8_mlp_emula.py",
+      "sha256": "9fbe967067dd68dc042e0a52fc48a73bab3ec4302d07ca3220f090ca843fee37",
+      "bytes": 1702
+    },
+    {
+      "path": "packages/phase2-250/kernels/fp8_mlp_fwd.py",
+      "source": "phase2/submissions/250-pila-e-fp8-d18-bwdmat-d24mm-memhost-384m-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/kernels/fp8_mlp_fwd.py",
+      "sha256": "b7fc5cc1c328c96402b000da62df2ff5e2f99714baaee9d16f52094de583e5ab",
+      "bytes": 5574
+    },
+    {
+      "path": "packages/phase2-250/kernels/fp8_mlp_op.py",
+      "source": "phase2/submissions/250-pila-e-fp8-d18-bwdmat-d24mm-memhost-384m-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/kernels/fp8_mlp_op.py",
+      "sha256": "31692cf0d83a8e2ed739753b1f428a6857aa5fefc4d745ca3b6e2fcd8dd9c3bc",
+      "bytes": 6889
+    },
+    {
+      "path": "packages/phase2-250/qf2_cola.py",
+      "source": "phase2/submissions/250-pila-e-fp8-d18-bwdmat-d24mm-memhost-384m-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_cola.py",
+      "sha256": "7537f6a7b48eea907f58196d0d89748dc3991f242072a8e31a15d5bf1e0b801b",
+      "bytes": 3596
+    },
+    {
+      "path": "packages/phase2-250/qf2_corpus_constructor.py",
+      "source": "phase2/submissions/250-pila-e-fp8-d18-bwdmat-d24mm-memhost-384m-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_corpus_constructor.py",
+      "sha256": "765cbaaf68cb837bd175f4b17342735d90db9eb42f320b72bc1f95ff5e754f37",
+      "bytes": 7648
+    },
+    {
+      "path": "packages/phase2-250/qf2_corpus_mezcla.py",
+      "source": "phase2/submissions/250-pila-e-fp8-d18-bwdmat-d24mm-memhost-384m-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_corpus_mezcla.py",
+      "sha256": "0993d41392bc8c79cd91d6d16b17b2842b39c6ba13a0b386bde64e2968285ffe",
+      "bytes": 6771
+    },
+    {
+      "path": "packages/phase2-250/qf2_corpus_tabla.py",
+      "source": "phase2/submissions/250-pila-e-fp8-d18-bwdmat-d24mm-memhost-384m-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_corpus_tabla.py",
+      "sha256": "ce74808a070dfc38bdc0fd7e80662e8fe23bbf5315620514946f682e538bd74b",
+      "bytes": 6654
+    },
+    {
+      "path": "packages/phase2-250/qf2_diff.py",
+      "source": "phase2/submissions/250-pila-e-fp8-d18-bwdmat-d24mm-memhost-384m-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_diff.py",
+      "sha256": "95df4b696c203f8ee34d9de520a6be81ab5b82be4ab27d9985c78c9872a28a44",
+      "bytes": 3016
+    },
+    {
+      "path": "packages/phase2-250/qf2_flujo.py",
+      "source": "phase2/submissions/250-pila-e-fp8-d18-bwdmat-d24mm-memhost-384m-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_flujo.py",
+      "sha256": "688b41979e7c4190ee2c0d9691319c846396a4624307188b96d4690fc937b154",
+      "bytes": 9272
+    },
+    {
+      "path": "packages/phase2-250/qf2_franjas.py",
+      "source": "phase2/submissions/250-pila-e-fp8-d18-bwdmat-d24mm-memhost-384m-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_franjas.py",
+      "sha256": "6c2e104b2e17507e114aa63844ac2ddd8e42dcdc8dac73f2b1c8bd893f92ea5f",
+      "bytes": 5300
+    },
+    {
+      "path": "packages/phase2-250/qf2_guarda.py",
+      "source": "phase2/submissions/250-pila-e-fp8-d18-bwdmat-d24mm-memhost-384m-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_guarda.py",
+      "sha256": "5a35e41827af562c83f15018e3769990886805e759d9cd164374fbc160a34f2f",
+      "bytes": 2039
+    },
+    {
+      "path": "packages/phase2-250/qf2_guardado_anticipado.py",
+      "source": "phase2/submissions/250-pila-e-fp8-d18-bwdmat-d24mm-memhost-384m-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_guardado_anticipado.py",
+      "sha256": "2fb34d1caf37c934b3fcec188d822b5fc4513f4146774f2000a6159121ea749c",
+      "bytes": 4673
+    },
+    {
+      "path": "packages/phase2-250/qf2_hilos_aten.py",
+      "source": "phase2/submissions/250-pila-e-fp8-d18-bwdmat-d24mm-memhost-384m-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_hilos_aten.py",
+      "sha256": "130206d1c8b5d64977da4114ca4a4188571712b5fd2e244e8657c8938e1b7372",
+      "bytes": 1469
+    },
+    {
+      "path": "packages/phase2-250/qf2_hilos_nice.py",
+      "source": "phase2/submissions/250-pila-e-fp8-d18-bwdmat-d24mm-memhost-384m-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_hilos_nice.py",
+      "sha256": "e4cbf8ecbada9a613c06695cccb1fabd39b4b249ab7842b434ee2a434d7bb23b",
+      "bytes": 1254
+    },
+    {
+      "path": "packages/phase2-250/qf2_lotes.py",
+      "source": "phase2/submissions/250-pila-e-fp8-d18-bwdmat-d24mm-memhost-384m-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_lotes.py",
+      "sha256": "f266696380f13bc335c07c859d8a10f7e4ce8e39229bd28eb24ae6d71d975964",
+      "bytes": 2178
+    },
+    {
+      "path": "packages/phase2-250/qf2_memhost_canon.py",
+      "source": "phase2/submissions/250-pila-e-fp8-d18-bwdmat-d24mm-memhost-384m-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_memhost_canon.py",
+      "sha256": "75327e1f2b9e0bc20c8f61d758b679362a28a9dc3b3b9b7e17057a93ba716847",
+      "bytes": 1031
+    },
+    {
+      "path": "packages/phase2-250/qf2_memhost_cfg.py",
+      "source": "phase2/submissions/250-pila-e-fp8-d18-bwdmat-d24mm-memhost-384m-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_memhost_cfg.py",
+      "sha256": "4a639affaf9e0334f25fc921a9a905e0161b507b325fdd3c5b5f6c5cdb70d1d2",
+      "bytes": 4465
+    },
+    {
+      "path": "packages/phase2-250/qf2_memhost_ckpt.py",
+      "source": "phase2/submissions/250-pila-e-fp8-d18-bwdmat-d24mm-memhost-384m-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_memhost_ckpt.py",
+      "sha256": "de697c8139217ca2850c64c4ed7f82289ea51398bf24b4938f393815d62e64a8",
+      "bytes": 3716
+    },
+    {
+      "path": "packages/phase2-250/qf2_memhost_cuantiza.py",
+      "source": "phase2/submissions/250-pila-e-fp8-d18-bwdmat-d24mm-memhost-384m-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_memhost_cuantiza.py",
+      "sha256": "c6e734cc26e269d072f60e172add49432ec67c87657ffbf60a724de45593f425",
+      "bytes": 1191
+    },
+    {
+      "path": "packages/phase2-250/qf2_memhost_hash.py",
+      "source": "phase2/submissions/250-pila-e-fp8-d18-bwdmat-d24mm-memhost-384m-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_memhost_hash.py",
+      "sha256": "5dbfd036dcf2ee730a21e3dba81b582cd0f5d9ab056f0887575d7b83c8c14390",
+      "bytes": 2948
+    },
+    {
+      "path": "packages/phase2-250/qf2_memhost_hilo.py",
+      "source": "phase2/submissions/250-pila-e-fp8-d18-bwdmat-d24mm-memhost-384m-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_memhost_hilo.py",
+      "sha256": "09a06a0f1c86a2eac090685b121e29d2066ea3f947f41ab6b5f8aff2a6625e73",
+      "bytes": 7860
+    },
+    {
+      "path": "packages/phase2-250/qf2_memhost_hojas.py",
+      "source": "phase2/submissions/250-pila-e-fp8-d18-bwdmat-d24mm-memhost-384m-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_memhost_hojas.py",
+      "sha256": "5344e45b5c18e26933c6a13fa2244fb6e9f65a3732c5490544669eb913324964",
+      "bytes": 1564
+    },
+    {
+      "path": "packages/phase2-250/qf2_memhost_intercambio.py",
+      "source": "phase2/submissions/250-pila-e-fp8-d18-bwdmat-d24mm-memhost-384m-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_memhost_intercambio.py",
+      "sha256": "55f11dfda2130c2c3b1ac42ad4ee398ab562137718d651419e5e2657621f1763",
+      "bytes": 2265
+    },
+    {
+      "path": "packages/phase2-250/qf2_memhost_opt.py",
+      "source": "phase2/submissions/250-pila-e-fp8-d18-bwdmat-d24mm-memhost-384m-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_memhost_opt.py",
+      "sha256": "a66324646c92885aa49ed30d4a4d85c167d52f119683a52bac4b620c6830c49a",
+      "bytes": 2460
+    },
+    {
+      "path": "packages/phase2-250/qf2_memhost_sincro.py",
+      "source": "phase2/submissions/250-pila-e-fp8-d18-bwdmat-d24mm-memhost-384m-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_memhost_sincro.py",
+      "sha256": "3fe4b8092d632d5bacb9ab1d2c31ffe62a3e9c1af5dc809a6f5519b82f86884d",
+      "bytes": 2390
+    },
+    {
+      "path": "packages/phase2-250/qf2_memhost_sitios.py",
+      "source": "phase2/submissions/250-pila-e-fp8-d18-bwdmat-d24mm-memhost-384m-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_memhost_sitios.py",
+      "sha256": "c2f9837b746aabadccef3068a6f38e450d35f3e1177502790fb4e34dd2f6961f",
+      "bytes": 4429
+    },
+    {
+      "path": "packages/phase2-250/qf2_memhost_tabla.py",
+      "source": "phase2/submissions/250-pila-e-fp8-d18-bwdmat-d24mm-memhost-384m-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_memhost_tabla.py",
+      "sha256": "011eb804e89d6f3f03abaf3c3258a5411dd94acdde3152ccfff47fb85742972b",
+      "bytes": 3887
+    },
+    {
+      "path": "packages/phase2-250/qf2_memhost_traza.py",
+      "source": "phase2/submissions/250-pila-e-fp8-d18-bwdmat-d24mm-memhost-384m-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_memhost_traza.py",
+      "sha256": "a94ab428a50bb4b9c67b05f7f1e5d71d9a45a37b15851438b4c4390ef7b9eba9",
+      "bytes": 3196
+    },
+    {
+      "path": "packages/phase2-250/qf2_memoria.py",
+      "source": "phase2/submissions/250-pila-e-fp8-d18-bwdmat-d24mm-memhost-384m-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_memoria.py",
+      "sha256": "39b511f94419d60715a279fefb7a57bda31761629ff1a910d8d3706de555a36a",
+      "bytes": 6865
+    },
+    {
+      "path": "packages/phase2-250/qf2_memoria_a2a.py",
+      "source": "phase2/submissions/250-pila-e-fp8-d18-bwdmat-d24mm-memhost-384m-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_memoria_a2a.py",
+      "sha256": "3a22ecb919d544e98f9a5652a7b0eecc7a45b9c391e3c67645c68c9ed6261af4",
+      "bytes": 4436
+    },
+    {
+      "path": "packages/phase2-250/qf2_memoria_anfitrion.py",
+      "source": "phase2/submissions/250-pila-e-fp8-d18-bwdmat-d24mm-memhost-384m-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_memoria_anfitrion.py",
+      "sha256": "e4c0b997464e55dfac66d3379ea0faa244a494470cd218c35de2c811876a0c03",
+      "bytes": 2369
+    },
+    {
+      "path": "packages/phase2-250/qf2_memoria_ckpt.py",
+      "source": "phase2/submissions/250-pila-e-fp8-d18-bwdmat-d24mm-memhost-384m-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_memoria_ckpt.py",
+      "sha256": "a06df4c8a5c7f99141bd6f89967b2ad0f52c0b3d23bfcf219c012516b286d60d",
+      "bytes": 1495
+    },
+    {
+      "path": "packages/phase2-250/qf2_memoria_opt.py",
+      "source": "phase2/submissions/250-pila-e-fp8-d18-bwdmat-d24mm-memhost-384m-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_memoria_opt.py",
+      "sha256": "a7a4116b9d643763ac20dc6b3d35b21ba473e7d635c1289facddc1ad8efb68d7",
+      "bytes": 1414
+    },
+    {
+      "path": "packages/phase2-250/qf2_mos.py",
+      "source": "phase2/submissions/250-pila-e-fp8-d18-bwdmat-d24mm-memhost-384m-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_mos.py",
+      "sha256": "0202f6230fc6f90cb9322b97e4e30bd5d0a85b9c96f902954a35165ebb60e0f4",
+      "bytes": 5161
+    },
+    {
+      "path": "packages/phase2-250/qf2_ngramas.py",
+      "source": "phase2/submissions/250-pila-e-fp8-d18-bwdmat-d24mm-memhost-384m-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_ngramas.py",
+      "sha256": "95522fb51527d8e9a771643f476dd21dcf4f2dbcf676f28a66c13ea9d0a93992",
+      "bytes": 2604
+    },
+    {
+      "path": "packages/phase2-250/qf2_opt_compilado.py",
+      "source": "phase2/submissions/250-pila-e-fp8-d18-bwdmat-d24mm-memhost-384m-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_opt_compilado.py",
+      "sha256": "b2d41de10b0088dd4e40e22a3aeb560df603699fd68e247734da81d98721e02a",
+      "bytes": 5472
+    },
+    {
+      "path": "packages/phase2-250/qf2_peso_contexto.py",
+      "source": "phase2/submissions/250-pila-e-fp8-d18-bwdmat-d24mm-memhost-384m-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_peso_contexto.py",
+      "sha256": "c424899aa62bb4c247ecf36adcdc264ce0755ec47b7142efc52e070bc64f2998",
+      "bytes": 7825
+    },
+    {
+      "path": "packages/phase2-250/qf2_peso_rasgos.py",
+      "source": "phase2/submissions/250-pila-e-fp8-d18-bwdmat-d24mm-memhost-384m-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_peso_rasgos.py",
+      "sha256": "58f59c87b96ddde5fbc1055bd6375f4775f775a1eab526dee8f82b94c84b7f52",
+      "bytes": 4239
+    },
+    {
+      "path": "packages/phase2-250/qf2_pkm.py",
+      "source": "phase2/submissions/250-pila-e-fp8-d18-bwdmat-d24mm-memhost-384m-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_pkm.py",
+      "sha256": "e53c70057290440c328d3d09ca5a9332e70a552aa1cab02ef144e1520439f59b",
+      "bytes": 3700
+    },
+    {
+      "path": "packages/phase2-250/qf2_plano.py",
+      "source": "phase2/submissions/250-pila-e-fp8-d18-bwdmat-d24mm-memhost-384m-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_plano.py",
+      "sha256": "77e458d43a0747161d00c88e9d6a45e08d46450b2385f1cea6d6b669fe79272a",
+      "bytes": 936
+    },
+    {
+      "path": "packages/phase2-250/qf2_precarga.py",
+      "source": "phase2/submissions/250-pila-e-fp8-d18-bwdmat-d24mm-memhost-384m-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_precarga.py",
+      "sha256": "2cbbe9552c0c8942780ec09fb8846445ebaa3cc49f931aeb73ae4b1781a664b4",
+      "bytes": 4462
+    },
+    {
+      "path": "packages/phase2-250/qf2_promedio.py",
+      "source": "phase2/submissions/250-pila-e-fp8-d18-bwdmat-d24mm-memhost-384m-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_promedio.py",
+      "sha256": "3f4806a1e3859cb1312af61ffe68c2d49c61cae4ce704bafc0ad8b2c799b0148",
+      "bytes": 2047
+    },
+    {
+      "path": "packages/phase2-250/qf2_puntos.py",
+      "source": "phase2/submissions/250-pila-e-fp8-d18-bwdmat-d24mm-memhost-384m-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_puntos.py",
+      "sha256": "91188c483dc3eab27482625b18d3e552c0ad8fbe66f1ba9a19ee5f6b7cb055de",
+      "bytes": 8856
+    },
+    {
+      "path": "packages/phase2-250/qf2_puntos_estado.py",
+      "source": "phase2/submissions/250-pila-e-fp8-d18-bwdmat-d24mm-memhost-384m-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_puntos_estado.py",
+      "sha256": "30ea8b9f312e634f0a4e2418824867efa3ef9e8bc056d239dd0c434f605d1a67",
+      "bytes": 4214
+    },
+    {
+      "path": "packages/phase2-250/qf2_reparto.py",
+      "source": "phase2/submissions/250-pila-e-fp8-d18-bwdmat-d24mm-memhost-384m-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_reparto.py",
+      "sha256": "f072f8fe53e4fdc08268f7e8cc8d05ff655674e6fc2a9eb56993aa73ed8bc093",
+      "bytes": 10157
+    },
+    {
+      "path": "packages/phase2-250/train.py",
+      "source": "phase2/submissions/250-pila-e-fp8-d18-bwdmat-d24mm-memhost-384m-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/train.py",
+      "sha256": "bc31605265d6abd7d6e8b49904fe3f7036747b9bbde7bb330e33b0d32d664755",
+      "bytes": 106843
+    },
+    {
+      "path": "packages/phase2-263/BANDERAS",
+      "source": "phase2/submissions/263-pila-e-fp8-d18-bwdmat-d24mm-memhost-1536w-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/BANDERAS",
+      "sha256": "21a7819d2b1bfdabd5639a120a6a633595236684275679ac1c30a96f4ed51782",
+      "bytes": 634
+    },
+    {
+      "path": "packages/phase2-263/COMANDO",
+      "source": "phase2/submissions/263-pila-e-fp8-d18-bwdmat-d24mm-memhost-1536w-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/COMANDO",
+      "sha256": "ba1490aa743585bb491b864c0d15936c83c74c03a906d23a123f79d6a07d2196",
+      "bytes": 88
+    },
+    {
+      "path": "packages/phase2-263/ce_trozos.py",
+      "source": "phase2/submissions/263-pila-e-fp8-d18-bwdmat-d24mm-memhost-1536w-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/ce_trozos.py",
+      "sha256": "b0ff8a1fcaf60512d946f32a02d0ef27fff33da0f31d6c0dac901b76182653d3",
+      "bytes": 2287
+    },
+    {
+      "path": "packages/phase2-263/cefa_nucleo.py",
+      "source": "phase2/submissions/263-pila-e-fp8-d18-bwdmat-d24mm-memhost-1536w-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/cefa_nucleo.py",
+      "sha256": "73a1f4ca8a97849ba4679af492c03ebb1a2bf2fd3d34ff199701f4db8933acc7",
+      "bytes": 4576
+    },
+    {
+      "path": "packages/phase2-263/cefa_perdida.py",
+      "source": "phase2/submissions/263-pila-e-fp8-d18-bwdmat-d24mm-memhost-1536w-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/cefa_perdida.py",
+      "sha256": "60a9ac4f94e448e44e34daadf8cba1e707493c6131db5dd280d6e31c5b455ad3",
+      "bytes": 2075
+    },
+    {
+      "path": "packages/phase2-263/envio/BANDERAS",
+      "source": "phase2/submissions/263-pila-e-fp8-d18-bwdmat-d24mm-memhost-1536w-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/envio/BANDERAS",
+      "sha256": "21a7819d2b1bfdabd5639a120a6a633595236684275679ac1c30a96f4ed51782",
+      "bytes": 634
+    },
+    {
+      "path": "packages/phase2-263/envio/COMANDO",
+      "source": "phase2/submissions/263-pila-e-fp8-d18-bwdmat-d24mm-memhost-1536w-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/envio/COMANDO",
+      "sha256": "ba1490aa743585bb491b864c0d15936c83c74c03a906d23a123f79d6a07d2196",
+      "bytes": 88
+    },
+    {
+      "path": "packages/phase2-263/envio/inference.py",
+      "source": "phase2/submissions/263-pila-e-fp8-d18-bwdmat-d24mm-memhost-1536w-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/envio/inference.py",
+      "sha256": "40cace5e521e271643c7352de067a53ecef046bc3a05e007ea029cbd601d3275",
+      "bytes": 2114
+    },
+    {
+      "path": "packages/phase2-263/envio/train.py",
+      "source": "phase2/submissions/263-pila-e-fp8-d18-bwdmat-d24mm-memhost-1536w-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/envio/train.py",
+      "sha256": "7270d8d529209e0fdd8a4c85490901c83269cbf634afca7a7ac7f0eb7708c5d2",
+      "bytes": 340294
+    },
+    {
+      "path": "packages/phase2-263/inference.py",
+      "source": "phase2/submissions/263-pila-e-fp8-d18-bwdmat-d24mm-memhost-1536w-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/inference.py",
+      "sha256": "40cace5e521e271643c7352de067a53ecef046bc3a05e007ea029cbd601d3275",
+      "bytes": 2114
+    },
+    {
+      "path": "packages/phase2-263/kernels/__init__.py",
+      "source": "phase2/submissions/263-pila-e-fp8-d18-bwdmat-d24mm-memhost-1536w-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/kernels/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "packages/phase2-263/kernels/emb_dw.py",
+      "source": "phase2/submissions/263-pila-e-fp8-d18-bwdmat-d24mm-memhost-1536w-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/kernels/emb_dw.py",
+      "sha256": "20655612b9a4117a2e58fac557cc48431810046712d83c20d59cafa413263207",
+      "bytes": 4684
+    },
+    {
+      "path": "packages/phase2-263/kernels/emb_op.py",
+      "source": "phase2/submissions/263-pila-e-fp8-d18-bwdmat-d24mm-memhost-1536w-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/kernels/emb_op.py",
+      "sha256": "77704339033d16fc1e8123411610459d29287d78c495cec8336dc1c916e6c7ce",
+      "bytes": 3699
+    },
+    {
+      "path": "packages/phase2-263/kernels/emb_puerta.py",
+      "source": "phase2/submissions/263-pila-e-fp8-d18-bwdmat-d24mm-memhost-1536w-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/kernels/emb_puerta.py",
+      "sha256": "dee18aaf3834211cac3457b3afcfda45a5f0bedafd5b8038e133b3707b6bc77d",
+      "bytes": 3216
+    },
+    {
+      "path": "packages/phase2-263/kernels/fp8_mlp_bwd_act.py",
+      "source": "phase2/submissions/263-pila-e-fp8-d18-bwdmat-d24mm-memhost-1536w-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/kernels/fp8_mlp_bwd_act.py",
+      "sha256": "73cdd01efeed6659e713641261b2bdab00b55eb669b4cf925a2554d99e22305f",
+      "bytes": 11255
+    },
+    {
+      "path": "packages/phase2-263/kernels/fp8_mlp_comun.py",
+      "source": "phase2/submissions/263-pila-e-fp8-d18-bwdmat-d24mm-memhost-1536w-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/kernels/fp8_mlp_comun.py",
+      "sha256": "58f07d29b61d7a7c0f14dceebcfaf5966191a3cc14c5ab88936ff19216ac20c5",
+      "bytes": 1698
+    },
+    {
+      "path": "packages/phase2-263/kernels/fp8_mlp_dw.py",
+      "source": "phase2/submissions/263-pila-e-fp8-d18-bwdmat-d24mm-memhost-1536w-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/kernels/fp8_mlp_dw.py",
+      "sha256": "7194212d54a58af64d733ef0a3e8475a57167d6d10c70ba18a70cea1a1d4c66b",
+      "bytes": 2562
+    },
+    {
+      "path": "packages/phase2-263/kernels/fp8_mlp_emula.py",
+      "source": "phase2/submissions/263-pila-e-fp8-d18-bwdmat-d24mm-memhost-1536w-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/kernels/fp8_mlp_emula.py",
+      "sha256": "9fbe967067dd68dc042e0a52fc48a73bab3ec4302d07ca3220f090ca843fee37",
+      "bytes": 1702
+    },
+    {
+      "path": "packages/phase2-263/kernels/fp8_mlp_fwd.py",
+      "source": "phase2/submissions/263-pila-e-fp8-d18-bwdmat-d24mm-memhost-1536w-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/kernels/fp8_mlp_fwd.py",
+      "sha256": "b7fc5cc1c328c96402b000da62df2ff5e2f99714baaee9d16f52094de583e5ab",
+      "bytes": 5574
+    },
+    {
+      "path": "packages/phase2-263/kernels/fp8_mlp_op.py",
+      "source": "phase2/submissions/263-pila-e-fp8-d18-bwdmat-d24mm-memhost-1536w-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/kernels/fp8_mlp_op.py",
+      "sha256": "31692cf0d83a8e2ed739753b1f428a6857aa5fefc4d745ca3b6e2fcd8dd9c3bc",
+      "bytes": 6889
+    },
+    {
+      "path": "packages/phase2-263/qf2_cola.py",
+      "source": "phase2/submissions/263-pila-e-fp8-d18-bwdmat-d24mm-memhost-1536w-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_cola.py",
+      "sha256": "7537f6a7b48eea907f58196d0d89748dc3991f242072a8e31a15d5bf1e0b801b",
+      "bytes": 3596
+    },
+    {
+      "path": "packages/phase2-263/qf2_corpus_constructor.py",
+      "source": "phase2/submissions/263-pila-e-fp8-d18-bwdmat-d24mm-memhost-1536w-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_corpus_constructor.py",
+      "sha256": "765cbaaf68cb837bd175f4b17342735d90db9eb42f320b72bc1f95ff5e754f37",
+      "bytes": 7648
+    },
+    {
+      "path": "packages/phase2-263/qf2_corpus_mezcla.py",
+      "source": "phase2/submissions/263-pila-e-fp8-d18-bwdmat-d24mm-memhost-1536w-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_corpus_mezcla.py",
+      "sha256": "0993d41392bc8c79cd91d6d16b17b2842b39c6ba13a0b386bde64e2968285ffe",
+      "bytes": 6771
+    },
+    {
+      "path": "packages/phase2-263/qf2_corpus_tabla.py",
+      "source": "phase2/submissions/263-pila-e-fp8-d18-bwdmat-d24mm-memhost-1536w-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_corpus_tabla.py",
+      "sha256": "ce74808a070dfc38bdc0fd7e80662e8fe23bbf5315620514946f682e538bd74b",
+      "bytes": 6654
+    },
+    {
+      "path": "packages/phase2-263/qf2_diff.py",
+      "source": "phase2/submissions/263-pila-e-fp8-d18-bwdmat-d24mm-memhost-1536w-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_diff.py",
+      "sha256": "95df4b696c203f8ee34d9de520a6be81ab5b82be4ab27d9985c78c9872a28a44",
+      "bytes": 3016
+    },
+    {
+      "path": "packages/phase2-263/qf2_flujo.py",
+      "source": "phase2/submissions/263-pila-e-fp8-d18-bwdmat-d24mm-memhost-1536w-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_flujo.py",
+      "sha256": "688b41979e7c4190ee2c0d9691319c846396a4624307188b96d4690fc937b154",
+      "bytes": 9272
+    },
+    {
+      "path": "packages/phase2-263/qf2_franjas.py",
+      "source": "phase2/submissions/263-pila-e-fp8-d18-bwdmat-d24mm-memhost-1536w-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_franjas.py",
+      "sha256": "6c2e104b2e17507e114aa63844ac2ddd8e42dcdc8dac73f2b1c8bd893f92ea5f",
+      "bytes": 5300
+    },
+    {
+      "path": "packages/phase2-263/qf2_guarda.py",
+      "source": "phase2/submissions/263-pila-e-fp8-d18-bwdmat-d24mm-memhost-1536w-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_guarda.py",
+      "sha256": "5a35e41827af562c83f15018e3769990886805e759d9cd164374fbc160a34f2f",
+      "bytes": 2039
+    },
+    {
+      "path": "packages/phase2-263/qf2_guardado_anticipado.py",
+      "source": "phase2/submissions/263-pila-e-fp8-d18-bwdmat-d24mm-memhost-1536w-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_guardado_anticipado.py",
+      "sha256": "2fb34d1caf37c934b3fcec188d822b5fc4513f4146774f2000a6159121ea749c",
+      "bytes": 4673
+    },
+    {
+      "path": "packages/phase2-263/qf2_hilos_aten.py",
+      "source": "phase2/submissions/263-pila-e-fp8-d18-bwdmat-d24mm-memhost-1536w-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_hilos_aten.py",
+      "sha256": "130206d1c8b5d64977da4114ca4a4188571712b5fd2e244e8657c8938e1b7372",
+      "bytes": 1469
+    },
+    {
+      "path": "packages/phase2-263/qf2_hilos_nice.py",
+      "source": "phase2/submissions/263-pila-e-fp8-d18-bwdmat-d24mm-memhost-1536w-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_hilos_nice.py",
+      "sha256": "e4cbf8ecbada9a613c06695cccb1fabd39b4b249ab7842b434ee2a434d7bb23b",
+      "bytes": 1254
+    },
+    {
+      "path": "packages/phase2-263/qf2_lotes.py",
+      "source": "phase2/submissions/263-pila-e-fp8-d18-bwdmat-d24mm-memhost-1536w-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_lotes.py",
+      "sha256": "f266696380f13bc335c07c859d8a10f7e4ce8e39229bd28eb24ae6d71d975964",
+      "bytes": 2178
+    },
+    {
+      "path": "packages/phase2-263/qf2_memhost_canon.py",
+      "source": "phase2/submissions/263-pila-e-fp8-d18-bwdmat-d24mm-memhost-1536w-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_memhost_canon.py",
+      "sha256": "75327e1f2b9e0bc20c8f61d758b679362a28a9dc3b3b9b7e17057a93ba716847",
+      "bytes": 1031
+    },
+    {
+      "path": "packages/phase2-263/qf2_memhost_cfg.py",
+      "source": "phase2/submissions/263-pila-e-fp8-d18-bwdmat-d24mm-memhost-1536w-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_memhost_cfg.py",
+      "sha256": "4a639affaf9e0334f25fc921a9a905e0161b507b325fdd3c5b5f6c5cdb70d1d2",
+      "bytes": 4465
+    },
+    {
+      "path": "packages/phase2-263/qf2_memhost_ckpt.py",
+      "source": "phase2/submissions/263-pila-e-fp8-d18-bwdmat-d24mm-memhost-1536w-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_memhost_ckpt.py",
+      "sha256": "de697c8139217ca2850c64c4ed7f82289ea51398bf24b4938f393815d62e64a8",
+      "bytes": 3716
+    },
+    {
+      "path": "packages/phase2-263/qf2_memhost_cuantiza.py",
+      "source": "phase2/submissions/263-pila-e-fp8-d18-bwdmat-d24mm-memhost-1536w-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_memhost_cuantiza.py",
+      "sha256": "c6e734cc26e269d072f60e172add49432ec67c87657ffbf60a724de45593f425",
+      "bytes": 1191
+    },
+    {
+      "path": "packages/phase2-263/qf2_memhost_hash.py",
+      "source": "phase2/submissions/263-pila-e-fp8-d18-bwdmat-d24mm-memhost-1536w-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_memhost_hash.py",
+      "sha256": "5dbfd036dcf2ee730a21e3dba81b582cd0f5d9ab056f0887575d7b83c8c14390",
+      "bytes": 2948
+    },
+    {
+      "path": "packages/phase2-263/qf2_memhost_hilo.py",
+      "source": "phase2/submissions/263-pila-e-fp8-d18-bwdmat-d24mm-memhost-1536w-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_memhost_hilo.py",
+      "sha256": "f7f788157fc12a8fc373b1542d2850ecd4822bd84f834bf935edbb465ebe3afe",
+      "bytes": 8218
+    },
+    {
+      "path": "packages/phase2-263/qf2_memhost_hojas.py",
+      "source": "phase2/submissions/263-pila-e-fp8-d18-bwdmat-d24mm-memhost-1536w-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_memhost_hojas.py",
+      "sha256": "5344e45b5c18e26933c6a13fa2244fb6e9f65a3732c5490544669eb913324964",
+      "bytes": 1564
+    },
+    {
+      "path": "packages/phase2-263/qf2_memhost_intercambio.py",
+      "source": "phase2/submissions/263-pila-e-fp8-d18-bwdmat-d24mm-memhost-1536w-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_memhost_intercambio.py",
+      "sha256": "55f11dfda2130c2c3b1ac42ad4ee398ab562137718d651419e5e2657621f1763",
+      "bytes": 2265
+    },
+    {
+      "path": "packages/phase2-263/qf2_memhost_opt.py",
+      "source": "phase2/submissions/263-pila-e-fp8-d18-bwdmat-d24mm-memhost-1536w-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_memhost_opt.py",
+      "sha256": "a66324646c92885aa49ed30d4a4d85c167d52f119683a52bac4b620c6830c49a",
+      "bytes": 2460
+    },
+    {
+      "path": "packages/phase2-263/qf2_memhost_rapido.py",
+      "source": "phase2/submissions/263-pila-e-fp8-d18-bwdmat-d24mm-memhost-1536w-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_memhost_rapido.py",
+      "sha256": "c27968d2c10bf0804a07c2ee67f6f108f8ede0777c7e05087108158335d4d317",
+      "bytes": 6203
+    },
+    {
+      "path": "packages/phase2-263/qf2_memhost_sincro.py",
+      "source": "phase2/submissions/263-pila-e-fp8-d18-bwdmat-d24mm-memhost-1536w-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_memhost_sincro.py",
+      "sha256": "3fe4b8092d632d5bacb9ab1d2c31ffe62a3e9c1af5dc809a6f5519b82f86884d",
+      "bytes": 2390
+    },
+    {
+      "path": "packages/phase2-263/qf2_memhost_sitios.py",
+      "source": "phase2/submissions/263-pila-e-fp8-d18-bwdmat-d24mm-memhost-1536w-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_memhost_sitios.py",
+      "sha256": "c2f9837b746aabadccef3068a6f38e450d35f3e1177502790fb4e34dd2f6961f",
+      "bytes": 4429
+    },
+    {
+      "path": "packages/phase2-263/qf2_memhost_tabla.py",
+      "source": "phase2/submissions/263-pila-e-fp8-d18-bwdmat-d24mm-memhost-1536w-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_memhost_tabla.py",
+      "sha256": "011eb804e89d6f3f03abaf3c3258a5411dd94acdde3152ccfff47fb85742972b",
+      "bytes": 3887
+    },
+    {
+      "path": "packages/phase2-263/qf2_memhost_traza.py",
+      "source": "phase2/submissions/263-pila-e-fp8-d18-bwdmat-d24mm-memhost-1536w-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_memhost_traza.py",
+      "sha256": "a94ab428a50bb4b9c67b05f7f1e5d71d9a45a37b15851438b4c4390ef7b9eba9",
+      "bytes": 3196
+    },
+    {
+      "path": "packages/phase2-263/qf2_memoria.py",
+      "source": "phase2/submissions/263-pila-e-fp8-d18-bwdmat-d24mm-memhost-1536w-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_memoria.py",
+      "sha256": "39b511f94419d60715a279fefb7a57bda31761629ff1a910d8d3706de555a36a",
+      "bytes": 6865
+    },
+    {
+      "path": "packages/phase2-263/qf2_memoria_a2a.py",
+      "source": "phase2/submissions/263-pila-e-fp8-d18-bwdmat-d24mm-memhost-1536w-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_memoria_a2a.py",
+      "sha256": "3a22ecb919d544e98f9a5652a7b0eecc7a45b9c391e3c67645c68c9ed6261af4",
+      "bytes": 4436
+    },
+    {
+      "path": "packages/phase2-263/qf2_memoria_anfitrion.py",
+      "source": "phase2/submissions/263-pila-e-fp8-d18-bwdmat-d24mm-memhost-1536w-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_memoria_anfitrion.py",
+      "sha256": "e4c0b997464e55dfac66d3379ea0faa244a494470cd218c35de2c811876a0c03",
+      "bytes": 2369
+    },
+    {
+      "path": "packages/phase2-263/qf2_memoria_ckpt.py",
+      "source": "phase2/submissions/263-pila-e-fp8-d18-bwdmat-d24mm-memhost-1536w-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_memoria_ckpt.py",
+      "sha256": "a06df4c8a5c7f99141bd6f89967b2ad0f52c0b3d23bfcf219c012516b286d60d",
+      "bytes": 1495
+    },
+    {
+      "path": "packages/phase2-263/qf2_memoria_opt.py",
+      "source": "phase2/submissions/263-pila-e-fp8-d18-bwdmat-d24mm-memhost-1536w-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_memoria_opt.py",
+      "sha256": "a7a4116b9d643763ac20dc6b3d35b21ba473e7d635c1289facddc1ad8efb68d7",
+      "bytes": 1414
+    },
+    {
+      "path": "packages/phase2-263/qf2_mos.py",
+      "source": "phase2/submissions/263-pila-e-fp8-d18-bwdmat-d24mm-memhost-1536w-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_mos.py",
+      "sha256": "0202f6230fc6f90cb9322b97e4e30bd5d0a85b9c96f902954a35165ebb60e0f4",
+      "bytes": 5161
+    },
+    {
+      "path": "packages/phase2-263/qf2_ngramas.py",
+      "source": "phase2/submissions/263-pila-e-fp8-d18-bwdmat-d24mm-memhost-1536w-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_ngramas.py",
+      "sha256": "95522fb51527d8e9a771643f476dd21dcf4f2dbcf676f28a66c13ea9d0a93992",
+      "bytes": 2604
+    },
+    {
+      "path": "packages/phase2-263/qf2_opt_compilado.py",
+      "source": "phase2/submissions/263-pila-e-fp8-d18-bwdmat-d24mm-memhost-1536w-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_opt_compilado.py",
+      "sha256": "b2d41de10b0088dd4e40e22a3aeb560df603699fd68e247734da81d98721e02a",
+      "bytes": 5472
+    },
+    {
+      "path": "packages/phase2-263/qf2_peso_contexto.py",
+      "source": "phase2/submissions/263-pila-e-fp8-d18-bwdmat-d24mm-memhost-1536w-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_peso_contexto.py",
+      "sha256": "c424899aa62bb4c247ecf36adcdc264ce0755ec47b7142efc52e070bc64f2998",
+      "bytes": 7825
+    },
+    {
+      "path": "packages/phase2-263/qf2_peso_rasgos.py",
+      "source": "phase2/submissions/263-pila-e-fp8-d18-bwdmat-d24mm-memhost-1536w-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_peso_rasgos.py",
+      "sha256": "58f59c87b96ddde5fbc1055bd6375f4775f775a1eab526dee8f82b94c84b7f52",
+      "bytes": 4239
+    },
+    {
+      "path": "packages/phase2-263/qf2_pkm.py",
+      "source": "phase2/submissions/263-pila-e-fp8-d18-bwdmat-d24mm-memhost-1536w-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_pkm.py",
+      "sha256": "e53c70057290440c328d3d09ca5a9332e70a552aa1cab02ef144e1520439f59b",
+      "bytes": 3700
+    },
+    {
+      "path": "packages/phase2-263/qf2_plano.py",
+      "source": "phase2/submissions/263-pila-e-fp8-d18-bwdmat-d24mm-memhost-1536w-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_plano.py",
+      "sha256": "77e458d43a0747161d00c88e9d6a45e08d46450b2385f1cea6d6b669fe79272a",
+      "bytes": 936
+    },
+    {
+      "path": "packages/phase2-263/qf2_precarga.py",
+      "source": "phase2/submissions/263-pila-e-fp8-d18-bwdmat-d24mm-memhost-1536w-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_precarga.py",
+      "sha256": "2cbbe9552c0c8942780ec09fb8846445ebaa3cc49f931aeb73ae4b1781a664b4",
+      "bytes": 4462
+    },
+    {
+      "path": "packages/phase2-263/qf2_promedio.py",
+      "source": "phase2/submissions/263-pila-e-fp8-d18-bwdmat-d24mm-memhost-1536w-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_promedio.py",
+      "sha256": "3f4806a1e3859cb1312af61ffe68c2d49c61cae4ce704bafc0ad8b2c799b0148",
+      "bytes": 2047
+    },
+    {
+      "path": "packages/phase2-263/qf2_puntos.py",
+      "source": "phase2/submissions/263-pila-e-fp8-d18-bwdmat-d24mm-memhost-1536w-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_puntos.py",
+      "sha256": "91188c483dc3eab27482625b18d3e552c0ad8fbe66f1ba9a19ee5f6b7cb055de",
+      "bytes": 8856
+    },
+    {
+      "path": "packages/phase2-263/qf2_puntos_estado.py",
+      "source": "phase2/submissions/263-pila-e-fp8-d18-bwdmat-d24mm-memhost-1536w-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_puntos_estado.py",
+      "sha256": "30ea8b9f312e634f0a4e2418824867efa3ef9e8bc056d239dd0c434f605d1a67",
+      "bytes": 4214
+    },
+    {
+      "path": "packages/phase2-263/qf2_reparto.py",
+      "source": "phase2/submissions/263-pila-e-fp8-d18-bwdmat-d24mm-memhost-1536w-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_reparto.py",
+      "sha256": "f072f8fe53e4fdc08268f7e8cc8d05ff655674e6fc2a9eb56993aa73ed8bc093",
+      "bytes": 10157
+    },
+    {
+      "path": "packages/phase2-263/train.py",
+      "source": "phase2/submissions/263-pila-e-fp8-d18-bwdmat-d24mm-memhost-1536w-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/train.py",
+      "sha256": "44ac8a47cfc6c70bc06bcedc35063a5118423e947c9649d9c4b2ecd919ff54a9",
+      "bytes": 106844
+    },
+    {
+      "path": "packages/phase2-274/BANDERAS",
+      "source": "phase2/submissions/274-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/BANDERAS",
+      "sha256": "c5c0bee5fb95c5065a21e49e5640f6f977982fc2c7d056efb4e0ff7f155ecee9",
+      "bytes": 651
+    },
+    {
+      "path": "packages/phase2-274/COMANDO",
+      "source": "phase2/submissions/274-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/COMANDO",
+      "sha256": "ba1490aa743585bb491b864c0d15936c83c74c03a906d23a123f79d6a07d2196",
+      "bytes": 88
+    },
+    {
+      "path": "packages/phase2-274/ce_trozos.py",
+      "source": "phase2/submissions/274-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/ce_trozos.py",
+      "sha256": "b0ff8a1fcaf60512d946f32a02d0ef27fff33da0f31d6c0dac901b76182653d3",
+      "bytes": 2287
+    },
+    {
+      "path": "packages/phase2-274/cefa_nucleo.py",
+      "source": "phase2/submissions/274-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/cefa_nucleo.py",
+      "sha256": "73a1f4ca8a97849ba4679af492c03ebb1a2bf2fd3d34ff199701f4db8933acc7",
+      "bytes": 4576
+    },
+    {
+      "path": "packages/phase2-274/cefa_perdida.py",
+      "source": "phase2/submissions/274-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/cefa_perdida.py",
+      "sha256": "60a9ac4f94e448e44e34daadf8cba1e707493c6131db5dd280d6e31c5b455ad3",
+      "bytes": 2075
+    },
+    {
+      "path": "packages/phase2-274/envio/BANDERAS",
+      "source": "phase2/submissions/274-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/envio/BANDERAS",
+      "sha256": "c5c0bee5fb95c5065a21e49e5640f6f977982fc2c7d056efb4e0ff7f155ecee9",
+      "bytes": 651
+    },
+    {
+      "path": "packages/phase2-274/envio/COMANDO",
+      "source": "phase2/submissions/274-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/envio/COMANDO",
+      "sha256": "ba1490aa743585bb491b864c0d15936c83c74c03a906d23a123f79d6a07d2196",
+      "bytes": 88
+    },
+    {
+      "path": "packages/phase2-274/envio/inference.py",
+      "source": "phase2/submissions/274-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/envio/inference.py",
+      "sha256": "40cace5e521e271643c7352de067a53ecef046bc3a05e007ea029cbd601d3275",
+      "bytes": 2114
+    },
+    {
+      "path": "packages/phase2-274/envio/train.py",
+      "source": "phase2/submissions/274-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/envio/train.py",
+      "sha256": "0f6db8486f3ae7350849de68defc9651a34d827c378ad2725f79378ff8042971",
+      "bytes": 344256
+    },
+    {
+      "path": "packages/phase2-274/inference.py",
+      "source": "phase2/submissions/274-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/inference.py",
+      "sha256": "40cace5e521e271643c7352de067a53ecef046bc3a05e007ea029cbd601d3275",
+      "bytes": 2114
+    },
+    {
+      "path": "packages/phase2-274/kernels/__init__.py",
+      "source": "phase2/submissions/274-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/kernels/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "packages/phase2-274/kernels/emb_dw.py",
+      "source": "phase2/submissions/274-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/kernels/emb_dw.py",
+      "sha256": "20655612b9a4117a2e58fac557cc48431810046712d83c20d59cafa413263207",
+      "bytes": 4684
+    },
+    {
+      "path": "packages/phase2-274/kernels/emb_op.py",
+      "source": "phase2/submissions/274-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/kernels/emb_op.py",
+      "sha256": "77704339033d16fc1e8123411610459d29287d78c495cec8336dc1c916e6c7ce",
+      "bytes": 3699
+    },
+    {
+      "path": "packages/phase2-274/kernels/emb_puerta.py",
+      "source": "phase2/submissions/274-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/kernels/emb_puerta.py",
+      "sha256": "dee18aaf3834211cac3457b3afcfda45a5f0bedafd5b8038e133b3707b6bc77d",
+      "bytes": 3216
+    },
+    {
+      "path": "packages/phase2-274/kernels/fp8_mlp_bwd_act.py",
+      "source": "phase2/submissions/274-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/kernels/fp8_mlp_bwd_act.py",
+      "sha256": "73cdd01efeed6659e713641261b2bdab00b55eb669b4cf925a2554d99e22305f",
+      "bytes": 11255
+    },
+    {
+      "path": "packages/phase2-274/kernels/fp8_mlp_comun.py",
+      "source": "phase2/submissions/274-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/kernels/fp8_mlp_comun.py",
+      "sha256": "58f07d29b61d7a7c0f14dceebcfaf5966191a3cc14c5ab88936ff19216ac20c5",
+      "bytes": 1698
+    },
+    {
+      "path": "packages/phase2-274/kernels/fp8_mlp_dw.py",
+      "source": "phase2/submissions/274-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/kernels/fp8_mlp_dw.py",
+      "sha256": "7194212d54a58af64d733ef0a3e8475a57167d6d10c70ba18a70cea1a1d4c66b",
+      "bytes": 2562
+    },
+    {
+      "path": "packages/phase2-274/kernels/fp8_mlp_emula.py",
+      "source": "phase2/submissions/274-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/kernels/fp8_mlp_emula.py",
+      "sha256": "9fbe967067dd68dc042e0a52fc48a73bab3ec4302d07ca3220f090ca843fee37",
+      "bytes": 1702
+    },
+    {
+      "path": "packages/phase2-274/kernels/fp8_mlp_fwd.py",
+      "source": "phase2/submissions/274-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/kernels/fp8_mlp_fwd.py",
+      "sha256": "b7fc5cc1c328c96402b000da62df2ff5e2f99714baaee9d16f52094de583e5ab",
+      "bytes": 5574
+    },
+    {
+      "path": "packages/phase2-274/kernels/fp8_mlp_op.py",
+      "source": "phase2/submissions/274-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/kernels/fp8_mlp_op.py",
+      "sha256": "31692cf0d83a8e2ed739753b1f428a6857aa5fefc4d745ca3b6e2fcd8dd9c3bc",
+      "bytes": 6889
+    },
+    {
+      "path": "packages/phase2-274/qf2_cola.py",
+      "source": "phase2/submissions/274-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_cola.py",
+      "sha256": "7537f6a7b48eea907f58196d0d89748dc3991f242072a8e31a15d5bf1e0b801b",
+      "bytes": 3596
+    },
+    {
+      "path": "packages/phase2-274/qf2_corpus_constructor.py",
+      "source": "phase2/submissions/274-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_corpus_constructor.py",
+      "sha256": "765cbaaf68cb837bd175f4b17342735d90db9eb42f320b72bc1f95ff5e754f37",
+      "bytes": 7648
+    },
+    {
+      "path": "packages/phase2-274/qf2_corpus_mezcla.py",
+      "source": "phase2/submissions/274-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_corpus_mezcla.py",
+      "sha256": "0993d41392bc8c79cd91d6d16b17b2842b39c6ba13a0b386bde64e2968285ffe",
+      "bytes": 6771
+    },
+    {
+      "path": "packages/phase2-274/qf2_corpus_tabla.py",
+      "source": "phase2/submissions/274-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_corpus_tabla.py",
+      "sha256": "ce74808a070dfc38bdc0fd7e80662e8fe23bbf5315620514946f682e538bd74b",
+      "bytes": 6654
+    },
+    {
+      "path": "packages/phase2-274/qf2_diff.py",
+      "source": "phase2/submissions/274-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_diff.py",
+      "sha256": "95df4b696c203f8ee34d9de520a6be81ab5b82be4ab27d9985c78c9872a28a44",
+      "bytes": 3016
+    },
+    {
+      "path": "packages/phase2-274/qf2_flujo.py",
+      "source": "phase2/submissions/274-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_flujo.py",
+      "sha256": "688b41979e7c4190ee2c0d9691319c846396a4624307188b96d4690fc937b154",
+      "bytes": 9272
+    },
+    {
+      "path": "packages/phase2-274/qf2_franjas.py",
+      "source": "phase2/submissions/274-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_franjas.py",
+      "sha256": "6c2e104b2e17507e114aa63844ac2ddd8e42dcdc8dac73f2b1c8bd893f92ea5f",
+      "bytes": 5300
+    },
+    {
+      "path": "packages/phase2-274/qf2_guarda.py",
+      "source": "phase2/submissions/274-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_guarda.py",
+      "sha256": "5a35e41827af562c83f15018e3769990886805e759d9cd164374fbc160a34f2f",
+      "bytes": 2039
+    },
+    {
+      "path": "packages/phase2-274/qf2_guardado_anticipado.py",
+      "source": "phase2/submissions/274-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_guardado_anticipado.py",
+      "sha256": "2fb34d1caf37c934b3fcec188d822b5fc4513f4146774f2000a6159121ea749c",
+      "bytes": 4673
+    },
+    {
+      "path": "packages/phase2-274/qf2_hilos_aten.py",
+      "source": "phase2/submissions/274-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_hilos_aten.py",
+      "sha256": "130206d1c8b5d64977da4114ca4a4188571712b5fd2e244e8657c8938e1b7372",
+      "bytes": 1469
+    },
+    {
+      "path": "packages/phase2-274/qf2_hilos_nice.py",
+      "source": "phase2/submissions/274-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_hilos_nice.py",
+      "sha256": "e4cbf8ecbada9a613c06695cccb1fabd39b4b249ab7842b434ee2a434d7bb23b",
+      "bytes": 1254
+    },
+    {
+      "path": "packages/phase2-274/qf2_lotes.py",
+      "source": "phase2/submissions/274-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_lotes.py",
+      "sha256": "f266696380f13bc335c07c859d8a10f7e4ce8e39229bd28eb24ae6d71d975964",
+      "bytes": 2178
+    },
+    {
+      "path": "packages/phase2-274/qf2_memhost_canon.py",
+      "source": "phase2/submissions/274-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_memhost_canon.py",
+      "sha256": "75327e1f2b9e0bc20c8f61d758b679362a28a9dc3b3b9b7e17057a93ba716847",
+      "bytes": 1031
+    },
+    {
+      "path": "packages/phase2-274/qf2_memhost_cfg.py",
+      "source": "phase2/submissions/274-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_memhost_cfg.py",
+      "sha256": "4a639affaf9e0334f25fc921a9a905e0161b507b325fdd3c5b5f6c5cdb70d1d2",
+      "bytes": 4465
+    },
+    {
+      "path": "packages/phase2-274/qf2_memhost_ckpt.py",
+      "source": "phase2/submissions/274-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_memhost_ckpt.py",
+      "sha256": "de697c8139217ca2850c64c4ed7f82289ea51398bf24b4938f393815d62e64a8",
+      "bytes": 3716
+    },
+    {
+      "path": "packages/phase2-274/qf2_memhost_cuantiza.py",
+      "source": "phase2/submissions/274-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_memhost_cuantiza.py",
+      "sha256": "c6e734cc26e269d072f60e172add49432ec67c87657ffbf60a724de45593f425",
+      "bytes": 1191
+    },
+    {
+      "path": "packages/phase2-274/qf2_memhost_hash.py",
+      "source": "phase2/submissions/274-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_memhost_hash.py",
+      "sha256": "5dbfd036dcf2ee730a21e3dba81b582cd0f5d9ab056f0887575d7b83c8c14390",
+      "bytes": 2948
+    },
+    {
+      "path": "packages/phase2-274/qf2_memhost_hilo.py",
+      "source": "phase2/submissions/274-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_memhost_hilo.py",
+      "sha256": "f7f788157fc12a8fc373b1542d2850ecd4822bd84f834bf935edbb465ebe3afe",
+      "bytes": 8218
+    },
+    {
+      "path": "packages/phase2-274/qf2_memhost_hojas.py",
+      "source": "phase2/submissions/274-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_memhost_hojas.py",
+      "sha256": "5344e45b5c18e26933c6a13fa2244fb6e9f65a3732c5490544669eb913324964",
+      "bytes": 1564
+    },
+    {
+      "path": "packages/phase2-274/qf2_memhost_intercambio.py",
+      "source": "phase2/submissions/274-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_memhost_intercambio.py",
+      "sha256": "55f11dfda2130c2c3b1ac42ad4ee398ab562137718d651419e5e2657621f1763",
+      "bytes": 2265
+    },
+    {
+      "path": "packages/phase2-274/qf2_memhost_opt.py",
+      "source": "phase2/submissions/274-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_memhost_opt.py",
+      "sha256": "a66324646c92885aa49ed30d4a4d85c167d52f119683a52bac4b620c6830c49a",
+      "bytes": 2460
+    },
+    {
+      "path": "packages/phase2-274/qf2_memhost_rapido.py",
+      "source": "phase2/submissions/274-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_memhost_rapido.py",
+      "sha256": "c27968d2c10bf0804a07c2ee67f6f108f8ede0777c7e05087108158335d4d317",
+      "bytes": 6203
+    },
+    {
+      "path": "packages/phase2-274/qf2_memhost_sincro.py",
+      "source": "phase2/submissions/274-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_memhost_sincro.py",
+      "sha256": "3fe4b8092d632d5bacb9ab1d2c31ffe62a3e9c1af5dc809a6f5519b82f86884d",
+      "bytes": 2390
+    },
+    {
+      "path": "packages/phase2-274/qf2_memhost_sitios.py",
+      "source": "phase2/submissions/274-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_memhost_sitios.py",
+      "sha256": "c2f9837b746aabadccef3068a6f38e450d35f3e1177502790fb4e34dd2f6961f",
+      "bytes": 4429
+    },
+    {
+      "path": "packages/phase2-274/qf2_memhost_tabla.py",
+      "source": "phase2/submissions/274-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_memhost_tabla.py",
+      "sha256": "011eb804e89d6f3f03abaf3c3258a5411dd94acdde3152ccfff47fb85742972b",
+      "bytes": 3887
+    },
+    {
+      "path": "packages/phase2-274/qf2_memhost_traza.py",
+      "source": "phase2/submissions/274-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_memhost_traza.py",
+      "sha256": "a94ab428a50bb4b9c67b05f7f1e5d71d9a45a37b15851438b4c4390ef7b9eba9",
+      "bytes": 3196
+    },
+    {
+      "path": "packages/phase2-274/qf2_memoria.py",
+      "source": "phase2/submissions/274-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_memoria.py",
+      "sha256": "39b511f94419d60715a279fefb7a57bda31761629ff1a910d8d3706de555a36a",
+      "bytes": 6865
+    },
+    {
+      "path": "packages/phase2-274/qf2_memoria_a2a.py",
+      "source": "phase2/submissions/274-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_memoria_a2a.py",
+      "sha256": "3a22ecb919d544e98f9a5652a7b0eecc7a45b9c391e3c67645c68c9ed6261af4",
+      "bytes": 4436
+    },
+    {
+      "path": "packages/phase2-274/qf2_memoria_anfitrion.py",
+      "source": "phase2/submissions/274-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_memoria_anfitrion.py",
+      "sha256": "e4c0b997464e55dfac66d3379ea0faa244a494470cd218c35de2c811876a0c03",
+      "bytes": 2369
+    },
+    {
+      "path": "packages/phase2-274/qf2_memoria_ckpt.py",
+      "source": "phase2/submissions/274-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_memoria_ckpt.py",
+      "sha256": "a06df4c8a5c7f99141bd6f89967b2ad0f52c0b3d23bfcf219c012516b286d60d",
+      "bytes": 1495
+    },
+    {
+      "path": "packages/phase2-274/qf2_memoria_opt.py",
+      "source": "phase2/submissions/274-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_memoria_opt.py",
+      "sha256": "a7a4116b9d643763ac20dc6b3d35b21ba473e7d635c1289facddc1ad8efb68d7",
+      "bytes": 1414
+    },
+    {
+      "path": "packages/phase2-274/qf2_mos.py",
+      "source": "phase2/submissions/274-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_mos.py",
+      "sha256": "0202f6230fc6f90cb9322b97e4e30bd5d0a85b9c96f902954a35165ebb60e0f4",
+      "bytes": 5161
+    },
+    {
+      "path": "packages/phase2-274/qf2_ngramas.py",
+      "source": "phase2/submissions/274-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_ngramas.py",
+      "sha256": "95522fb51527d8e9a771643f476dd21dcf4f2dbcf676f28a66c13ea9d0a93992",
+      "bytes": 2604
+    },
+    {
+      "path": "packages/phase2-274/qf2_opt_compilado.py",
+      "source": "phase2/submissions/274-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_opt_compilado.py",
+      "sha256": "b2d41de10b0088dd4e40e22a3aeb560df603699fd68e247734da81d98721e02a",
+      "bytes": 5472
+    },
+    {
+      "path": "packages/phase2-274/qf2_peso_contexto.py",
+      "source": "phase2/submissions/274-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_peso_contexto.py",
+      "sha256": "c424899aa62bb4c247ecf36adcdc264ce0755ec47b7142efc52e070bc64f2998",
+      "bytes": 7825
+    },
+    {
+      "path": "packages/phase2-274/qf2_peso_rasgos.py",
+      "source": "phase2/submissions/274-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_peso_rasgos.py",
+      "sha256": "58f59c87b96ddde5fbc1055bd6375f4775f775a1eab526dee8f82b94c84b7f52",
+      "bytes": 4239
+    },
+    {
+      "path": "packages/phase2-274/qf2_pkm.py",
+      "source": "phase2/submissions/274-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_pkm.py",
+      "sha256": "e53c70057290440c328d3d09ca5a9332e70a552aa1cab02ef144e1520439f59b",
+      "bytes": 3700
+    },
+    {
+      "path": "packages/phase2-274/qf2_plano.py",
+      "source": "phase2/submissions/274-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_plano.py",
+      "sha256": "77e458d43a0747161d00c88e9d6a45e08d46450b2385f1cea6d6b669fe79272a",
+      "bytes": 936
+    },
+    {
+      "path": "packages/phase2-274/qf2_precarga.py",
+      "source": "phase2/submissions/274-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_precarga.py",
+      "sha256": "2cbbe9552c0c8942780ec09fb8846445ebaa3cc49f931aeb73ae4b1781a664b4",
+      "bytes": 4462
+    },
+    {
+      "path": "packages/phase2-274/qf2_promedio.py",
+      "source": "phase2/submissions/274-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_promedio.py",
+      "sha256": "3f4806a1e3859cb1312af61ffe68c2d49c61cae4ce704bafc0ad8b2c799b0148",
+      "bytes": 2047
+    },
+    {
+      "path": "packages/phase2-274/qf2_puntos.py",
+      "source": "phase2/submissions/274-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_puntos.py",
+      "sha256": "91188c483dc3eab27482625b18d3e552c0ad8fbe66f1ba9a19ee5f6b7cb055de",
+      "bytes": 8856
+    },
+    {
+      "path": "packages/phase2-274/qf2_puntos_estado.py",
+      "source": "phase2/submissions/274-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_puntos_estado.py",
+      "sha256": "30ea8b9f312e634f0a4e2418824867efa3ef9e8bc056d239dd0c434f605d1a67",
+      "bytes": 4214
+    },
+    {
+      "path": "packages/phase2-274/qf2_reparto.py",
+      "source": "phase2/submissions/274-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_reparto.py",
+      "sha256": "f072f8fe53e4fdc08268f7e8cc8d05ff655674e6fc2a9eb56993aa73ed8bc093",
+      "bytes": 10157
+    },
+    {
+      "path": "packages/phase2-274/qf2_resumen.py",
+      "source": "phase2/submissions/274-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_resumen.py",
+      "sha256": "9efefb2a23d520446cf36e2e8821c9ce7696db5f4d6712e9f6d856919851357b",
+      "bytes": 3072
+    },
+    {
+      "path": "packages/phase2-274/train.py",
+      "source": "phase2/submissions/274-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/train.py",
+      "sha256": "059f2a8cd537551b201c47dfea17e3c72b43f89f8732a2aac03b202b14c49daf",
+      "bytes": 107703
+    },
+    {
+      "path": "packages/phase2-302/BANDERAS",
+      "source": "phase2/submissions/302-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-banco-union-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/BANDERAS",
+      "sha256": "8e705915065caee10c77171b8a8d89b008b06f61ead68efd20e115ef69cdd616",
+      "bytes": 986
+    },
+    {
+      "path": "packages/phase2-302/COMANDO",
+      "source": "phase2/submissions/302-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-banco-union-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/COMANDO",
+      "sha256": "ba1490aa743585bb491b864c0d15936c83c74c03a906d23a123f79d6a07d2196",
+      "bytes": 88
+    },
+    {
+      "path": "packages/phase2-302/ce_trozos.py",
+      "source": "phase2/submissions/302-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-banco-union-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/ce_trozos.py",
+      "sha256": "87137348d1628afb9aa2c40c40180f1f242b92596e66f0f751ff89daef9f7cf8",
+      "bytes": 4233
+    },
+    {
+      "path": "packages/phase2-302/cefa_nucleo.py",
+      "source": "phase2/submissions/302-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-banco-union-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/cefa_nucleo.py",
+      "sha256": "73a1f4ca8a97849ba4679af492c03ebb1a2bf2fd3d34ff199701f4db8933acc7",
+      "bytes": 4576
+    },
+    {
+      "path": "packages/phase2-302/cefa_perdida.py",
+      "source": "phase2/submissions/302-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-banco-union-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/cefa_perdida.py",
+      "sha256": "60a9ac4f94e448e44e34daadf8cba1e707493c6131db5dd280d6e31c5b455ad3",
+      "bytes": 2075
+    },
+    {
+      "path": "packages/phase2-302/envio/BANDERAS",
+      "source": "phase2/submissions/302-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-banco-union-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/envio/BANDERAS",
+      "sha256": "8e705915065caee10c77171b8a8d89b008b06f61ead68efd20e115ef69cdd616",
+      "bytes": 986
+    },
+    {
+      "path": "packages/phase2-302/envio/COMANDO",
+      "source": "phase2/submissions/302-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-banco-union-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/envio/COMANDO",
+      "sha256": "ba1490aa743585bb491b864c0d15936c83c74c03a906d23a123f79d6a07d2196",
+      "bytes": 88
+    },
+    {
+      "path": "packages/phase2-302/envio/inference.py",
+      "source": "phase2/submissions/302-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-banco-union-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/envio/inference.py",
+      "sha256": "40cace5e521e271643c7352de067a53ecef046bc3a05e007ea029cbd601d3275",
+      "bytes": 2114
+    },
+    {
+      "path": "packages/phase2-302/envio/train.py",
+      "source": "phase2/submissions/302-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-banco-union-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/envio/train.py",
+      "sha256": "f3c9b34165c598dac04b692ba2b6896c1ab539d088259b48f8c3dbd507cf8dca",
+      "bytes": 421545
+    },
+    {
+      "path": "packages/phase2-302/inference.py",
+      "source": "phase2/submissions/302-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-banco-union-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/inference.py",
+      "sha256": "40cace5e521e271643c7352de067a53ecef046bc3a05e007ea029cbd601d3275",
+      "bytes": 2114
+    },
+    {
+      "path": "packages/phase2-302/kernels/__init__.py",
+      "source": "phase2/submissions/302-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-banco-union-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/kernels/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "packages/phase2-302/kernels/emb_dw.py",
+      "source": "phase2/submissions/302-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-banco-union-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/kernels/emb_dw.py",
+      "sha256": "20655612b9a4117a2e58fac557cc48431810046712d83c20d59cafa413263207",
+      "bytes": 4684
+    },
+    {
+      "path": "packages/phase2-302/kernels/emb_op.py",
+      "source": "phase2/submissions/302-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-banco-union-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/kernels/emb_op.py",
+      "sha256": "77704339033d16fc1e8123411610459d29287d78c495cec8336dc1c916e6c7ce",
+      "bytes": 3699
+    },
+    {
+      "path": "packages/phase2-302/kernels/emb_puerta.py",
+      "source": "phase2/submissions/302-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-banco-union-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/kernels/emb_puerta.py",
+      "sha256": "dee18aaf3834211cac3457b3afcfda45a5f0bedafd5b8038e133b3707b6bc77d",
+      "bytes": 3216
+    },
+    {
+      "path": "packages/phase2-302/kernels/fp8_mlp_bwd_act.py",
+      "source": "phase2/submissions/302-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-banco-union-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/kernels/fp8_mlp_bwd_act.py",
+      "sha256": "73cdd01efeed6659e713641261b2bdab00b55eb669b4cf925a2554d99e22305f",
+      "bytes": 11255
+    },
+    {
+      "path": "packages/phase2-302/kernels/fp8_mlp_comun.py",
+      "source": "phase2/submissions/302-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-banco-union-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/kernels/fp8_mlp_comun.py",
+      "sha256": "58f07d29b61d7a7c0f14dceebcfaf5966191a3cc14c5ab88936ff19216ac20c5",
+      "bytes": 1698
+    },
+    {
+      "path": "packages/phase2-302/kernels/fp8_mlp_dw.py",
+      "source": "phase2/submissions/302-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-banco-union-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/kernels/fp8_mlp_dw.py",
+      "sha256": "7194212d54a58af64d733ef0a3e8475a57167d6d10c70ba18a70cea1a1d4c66b",
+      "bytes": 2562
+    },
+    {
+      "path": "packages/phase2-302/kernels/fp8_mlp_emula.py",
+      "source": "phase2/submissions/302-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-banco-union-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/kernels/fp8_mlp_emula.py",
+      "sha256": "9fbe967067dd68dc042e0a52fc48a73bab3ec4302d07ca3220f090ca843fee37",
+      "bytes": 1702
+    },
+    {
+      "path": "packages/phase2-302/kernels/fp8_mlp_fwd.py",
+      "source": "phase2/submissions/302-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-banco-union-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/kernels/fp8_mlp_fwd.py",
+      "sha256": "b7fc5cc1c328c96402b000da62df2ff5e2f99714baaee9d16f52094de583e5ab",
+      "bytes": 5574
+    },
+    {
+      "path": "packages/phase2-302/kernels/fp8_mlp_op.py",
+      "source": "phase2/submissions/302-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-banco-union-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/kernels/fp8_mlp_op.py",
+      "sha256": "31692cf0d83a8e2ed739753b1f428a6857aa5fefc4d745ca3b6e2fcd8dd9c3bc",
+      "bytes": 6889
+    },
+    {
+      "path": "packages/phase2-302/qf2_agrupa.py",
+      "source": "phase2/submissions/302-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-banco-union-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_agrupa.py",
+      "sha256": "b59307c7ce810e217aac8aee264807d892572ba69b6fa52cc95c36b8c5ba0b8f",
+      "bytes": 10570
+    },
+    {
+      "path": "packages/phase2-302/qf2_brier.py",
+      "source": "phase2/submissions/302-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-banco-union-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_brier.py",
+      "sha256": "13f307fad4e70df09950b5221593cb425299025d055459dc1de821b8bb73fcee",
+      "bytes": 4628
+    },
+    {
+      "path": "packages/phase2-302/qf2_cola.py",
+      "source": "phase2/submissions/302-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-banco-union-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_cola.py",
+      "sha256": "7537f6a7b48eea907f58196d0d89748dc3991f242072a8e31a15d5bf1e0b801b",
+      "bytes": 3596
+    },
+    {
+      "path": "packages/phase2-302/qf2_corpus_constructor.py",
+      "source": "phase2/submissions/302-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-banco-union-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_corpus_constructor.py",
+      "sha256": "765cbaaf68cb837bd175f4b17342735d90db9eb42f320b72bc1f95ff5e754f37",
+      "bytes": 7648
+    },
+    {
+      "path": "packages/phase2-302/qf2_corpus_mezcla.py",
+      "source": "phase2/submissions/302-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-banco-union-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_corpus_mezcla.py",
+      "sha256": "0993d41392bc8c79cd91d6d16b17b2842b39c6ba13a0b386bde64e2968285ffe",
+      "bytes": 6771
+    },
+    {
+      "path": "packages/phase2-302/qf2_corpus_tabla.py",
+      "source": "phase2/submissions/302-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-banco-union-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_corpus_tabla.py",
+      "sha256": "ce74808a070dfc38bdc0fd7e80662e8fe23bbf5315620514946f682e538bd74b",
+      "bytes": 6654
+    },
+    {
+      "path": "packages/phase2-302/qf2_diff.py",
+      "source": "phase2/submissions/302-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-banco-union-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_diff.py",
+      "sha256": "95df4b696c203f8ee34d9de520a6be81ab5b82be4ab27d9985c78c9872a28a44",
+      "bytes": 3016
+    },
+    {
+      "path": "packages/phase2-302/qf2_equilibrio.py",
+      "source": "phase2/submissions/302-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-banco-union-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_equilibrio.py",
+      "sha256": "4c71593e7d568dcf95be02afa42ef3240b67433653f4f290d3b34567bf65c71a",
+      "bytes": 6946
+    },
+    {
+      "path": "packages/phase2-302/qf2_filas.py",
+      "source": "phase2/submissions/302-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-banco-union-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_filas.py",
+      "sha256": "b9cfcbb7d80f71c90c71c8dda950ab5ee024991dbd79f918c3f230daf66f2838",
+      "bytes": 7157
+    },
+    {
+      "path": "packages/phase2-302/qf2_flujo.py",
+      "source": "phase2/submissions/302-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-banco-union-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_flujo.py",
+      "sha256": "688b41979e7c4190ee2c0d9691319c846396a4624307188b96d4690fc937b154",
+      "bytes": 9272
+    },
+    {
+      "path": "packages/phase2-302/qf2_franjas.py",
+      "source": "phase2/submissions/302-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-banco-union-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_franjas.py",
+      "sha256": "6c2e104b2e17507e114aa63844ac2ddd8e42dcdc8dac73f2b1c8bd893f92ea5f",
+      "bytes": 5300
+    },
+    {
+      "path": "packages/phase2-302/qf2_guarda.py",
+      "source": "phase2/submissions/302-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-banco-union-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_guarda.py",
+      "sha256": "5a35e41827af562c83f15018e3769990886805e759d9cd164374fbc160a34f2f",
+      "bytes": 2039
+    },
+    {
+      "path": "packages/phase2-302/qf2_guardado_anticipado.py",
+      "source": "phase2/submissions/302-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-banco-union-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_guardado_anticipado.py",
+      "sha256": "2fb34d1caf37c934b3fcec188d822b5fc4513f4146774f2000a6159121ea749c",
+      "bytes": 4673
+    },
+    {
+      "path": "packages/phase2-302/qf2_hilos_aten.py",
+      "source": "phase2/submissions/302-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-banco-union-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_hilos_aten.py",
+      "sha256": "130206d1c8b5d64977da4114ca4a4188571712b5fd2e244e8657c8938e1b7372",
+      "bytes": 1469
+    },
+    {
+      "path": "packages/phase2-302/qf2_hilos_nice.py",
+      "source": "phase2/submissions/302-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-banco-union-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_hilos_nice.py",
+      "sha256": "e4cbf8ecbada9a613c06695cccb1fabd39b4b249ab7842b434ee2a434d7bb23b",
+      "bytes": 1254
+    },
+    {
+      "path": "packages/phase2-302/qf2_inicio.py",
+      "source": "phase2/submissions/302-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-banco-union-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_inicio.py",
+      "sha256": "7e7737eade5cd7ca91ff2c2a5dc7773eb05b01b399dd47c40a29393e3b7ebe8b",
+      "bytes": 6766
+    },
+    {
+      "path": "packages/phase2-302/qf2_lotes.py",
+      "source": "phase2/submissions/302-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-banco-union-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_lotes.py",
+      "sha256": "f266696380f13bc335c07c859d8a10f7e4ce8e39229bd28eb24ae6d71d975964",
+      "bytes": 2178
+    },
+    {
+      "path": "packages/phase2-302/qf2_memhost_canon.py",
+      "source": "phase2/submissions/302-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-banco-union-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_memhost_canon.py",
+      "sha256": "75327e1f2b9e0bc20c8f61d758b679362a28a9dc3b3b9b7e17057a93ba716847",
+      "bytes": 1031
+    },
+    {
+      "path": "packages/phase2-302/qf2_memhost_cfg.py",
+      "source": "phase2/submissions/302-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-banco-union-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_memhost_cfg.py",
+      "sha256": "d7fd312f6824f29a71e4240d6bcc9370a3b38a6404d48a075d1e72d90cf92c2c",
+      "bytes": 5403
+    },
+    {
+      "path": "packages/phase2-302/qf2_memhost_ckpt.py",
+      "source": "phase2/submissions/302-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-banco-union-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_memhost_ckpt.py",
+      "sha256": "de697c8139217ca2850c64c4ed7f82289ea51398bf24b4938f393815d62e64a8",
+      "bytes": 3716
+    },
+    {
+      "path": "packages/phase2-302/qf2_memhost_cuantiza.py",
+      "source": "phase2/submissions/302-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-banco-union-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_memhost_cuantiza.py",
+      "sha256": "c6e734cc26e269d072f60e172add49432ec67c87657ffbf60a724de45593f425",
+      "bytes": 1191
+    },
+    {
+      "path": "packages/phase2-302/qf2_memhost_hash.py",
+      "source": "phase2/submissions/302-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-banco-union-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_memhost_hash.py",
+      "sha256": "5dbfd036dcf2ee730a21e3dba81b582cd0f5d9ab056f0887575d7b83c8c14390",
+      "bytes": 2948
+    },
+    {
+      "path": "packages/phase2-302/qf2_memhost_hilo.py",
+      "source": "phase2/submissions/302-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-banco-union-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_memhost_hilo.py",
+      "sha256": "7c1eb6ca1049991ed33ee34e585ef1c30b7d3604a6dc4c1bd68f387da37f1eb0",
+      "bytes": 8293
+    },
+    {
+      "path": "packages/phase2-302/qf2_memhost_hojas.py",
+      "source": "phase2/submissions/302-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-banco-union-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_memhost_hojas.py",
+      "sha256": "5344e45b5c18e26933c6a13fa2244fb6e9f65a3732c5490544669eb913324964",
+      "bytes": 1564
+    },
+    {
+      "path": "packages/phase2-302/qf2_memhost_intercambio.py",
+      "source": "phase2/submissions/302-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-banco-union-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_memhost_intercambio.py",
+      "sha256": "55f11dfda2130c2c3b1ac42ad4ee398ab562137718d651419e5e2657621f1763",
+      "bytes": 2265
+    },
+    {
+      "path": "packages/phase2-302/qf2_memhost_opt.py",
+      "source": "phase2/submissions/302-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-banco-union-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_memhost_opt.py",
+      "sha256": "a66324646c92885aa49ed30d4a4d85c167d52f119683a52bac4b620c6830c49a",
+      "bytes": 2460
+    },
+    {
+      "path": "packages/phase2-302/qf2_memhost_rapido.py",
+      "source": "phase2/submissions/302-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-banco-union-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_memhost_rapido.py",
+      "sha256": "c27968d2c10bf0804a07c2ee67f6f108f8ede0777c7e05087108158335d4d317",
+      "bytes": 6203
+    },
+    {
+      "path": "packages/phase2-302/qf2_memhost_sincro.py",
+      "source": "phase2/submissions/302-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-banco-union-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_memhost_sincro.py",
+      "sha256": "3fe4b8092d632d5bacb9ab1d2c31ffe62a3e9c1af5dc809a6f5519b82f86884d",
+      "bytes": 2390
+    },
+    {
+      "path": "packages/phase2-302/qf2_memhost_sitios.py",
+      "source": "phase2/submissions/302-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-banco-union-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_memhost_sitios.py",
+      "sha256": "c2f9837b746aabadccef3068a6f38e450d35f3e1177502790fb4e34dd2f6961f",
+      "bytes": 4429
+    },
+    {
+      "path": "packages/phase2-302/qf2_memhost_tabla.py",
+      "source": "phase2/submissions/302-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-banco-union-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_memhost_tabla.py",
+      "sha256": "011eb804e89d6f3f03abaf3c3258a5411dd94acdde3152ccfff47fb85742972b",
+      "bytes": 3887
+    },
+    {
+      "path": "packages/phase2-302/qf2_memhost_traza.py",
+      "source": "phase2/submissions/302-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-banco-union-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_memhost_traza.py",
+      "sha256": "a94ab428a50bb4b9c67b05f7f1e5d71d9a45a37b15851438b4c4390ef7b9eba9",
+      "bytes": 3196
+    },
+    {
+      "path": "packages/phase2-302/qf2_memoria.py",
+      "source": "phase2/submissions/302-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-banco-union-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_memoria.py",
+      "sha256": "39b511f94419d60715a279fefb7a57bda31761629ff1a910d8d3706de555a36a",
+      "bytes": 6865
+    },
+    {
+      "path": "packages/phase2-302/qf2_memoria_a2a.py",
+      "source": "phase2/submissions/302-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-banco-union-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_memoria_a2a.py",
+      "sha256": "3a22ecb919d544e98f9a5652a7b0eecc7a45b9c391e3c67645c68c9ed6261af4",
+      "bytes": 4436
+    },
+    {
+      "path": "packages/phase2-302/qf2_memoria_anfitrion.py",
+      "source": "phase2/submissions/302-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-banco-union-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_memoria_anfitrion.py",
+      "sha256": "e4c0b997464e55dfac66d3379ea0faa244a494470cd218c35de2c811876a0c03",
+      "bytes": 2369
+    },
+    {
+      "path": "packages/phase2-302/qf2_memoria_ckpt.py",
+      "source": "phase2/submissions/302-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-banco-union-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_memoria_ckpt.py",
+      "sha256": "a06df4c8a5c7f99141bd6f89967b2ad0f52c0b3d23bfcf219c012516b286d60d",
+      "bytes": 1495
+    },
+    {
+      "path": "packages/phase2-302/qf2_memoria_opt.py",
+      "source": "phase2/submissions/302-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-banco-union-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_memoria_opt.py",
+      "sha256": "a7a4116b9d643763ac20dc6b3d35b21ba473e7d635c1289facddc1ad8efb68d7",
+      "bytes": 1414
+    },
+    {
+      "path": "packages/phase2-302/qf2_mos.py",
+      "source": "phase2/submissions/302-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-banco-union-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_mos.py",
+      "sha256": "0202f6230fc6f90cb9322b97e4e30bd5d0a85b9c96f902954a35165ebb60e0f4",
+      "bytes": 5161
+    },
+    {
+      "path": "packages/phase2-302/qf2_ngramas.py",
+      "source": "phase2/submissions/302-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-banco-union-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_ngramas.py",
+      "sha256": "95522fb51527d8e9a771643f476dd21dcf4f2dbcf676f28a66c13ea9d0a93992",
+      "bytes": 2604
+    },
+    {
+      "path": "packages/phase2-302/qf2_objetivos.py",
+      "source": "phase2/submissions/302-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-banco-union-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_objetivos.py",
+      "sha256": "a815892656a0ea54dc8ee65e945b77742604dbbbfd1d7411795db5e8f04cffbd",
+      "bytes": 6895
+    },
+    {
+      "path": "packages/phase2-302/qf2_opt_compilado.py",
+      "source": "phase2/submissions/302-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-banco-union-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_opt_compilado.py",
+      "sha256": "b2d41de10b0088dd4e40e22a3aeb560df603699fd68e247734da81d98721e02a",
+      "bytes": 5472
+    },
+    {
+      "path": "packages/phase2-302/qf2_peso_contexto.py",
+      "source": "phase2/submissions/302-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-banco-union-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_peso_contexto.py",
+      "sha256": "c424899aa62bb4c247ecf36adcdc264ce0755ec47b7142efc52e070bc64f2998",
+      "bytes": 7825
+    },
+    {
+      "path": "packages/phase2-302/qf2_peso_rasgos.py",
+      "source": "phase2/submissions/302-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-banco-union-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_peso_rasgos.py",
+      "sha256": "58f59c87b96ddde5fbc1055bd6375f4775f775a1eab526dee8f82b94c84b7f52",
+      "bytes": 4239
+    },
+    {
+      "path": "packages/phase2-302/qf2_pkm.py",
+      "source": "phase2/submissions/302-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-banco-union-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_pkm.py",
+      "sha256": "e53c70057290440c328d3d09ca5a9332e70a552aa1cab02ef144e1520439f59b",
+      "bytes": 3700
+    },
+    {
+      "path": "packages/phase2-302/qf2_plano.py",
+      "source": "phase2/submissions/302-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-banco-union-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_plano.py",
+      "sha256": "77e458d43a0747161d00c88e9d6a45e08d46450b2385f1cea6d6b669fe79272a",
+      "bytes": 936
+    },
+    {
+      "path": "packages/phase2-302/qf2_precarga.py",
+      "source": "phase2/submissions/302-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-banco-union-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_precarga.py",
+      "sha256": "2cbbe9552c0c8942780ec09fb8846445ebaa3cc49f931aeb73ae4b1781a664b4",
+      "bytes": 4462
+    },
+    {
+      "path": "packages/phase2-302/qf2_promedio.py",
+      "source": "phase2/submissions/302-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-banco-union-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_promedio.py",
+      "sha256": "3f4806a1e3859cb1312af61ffe68c2d49c61cae4ce704bafc0ad8b2c799b0148",
+      "bytes": 2047
+    },
+    {
+      "path": "packages/phase2-302/qf2_puntos.py",
+      "source": "phase2/submissions/302-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-banco-union-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_puntos.py",
+      "sha256": "91188c483dc3eab27482625b18d3e552c0ad8fbe66f1ba9a19ee5f6b7cb055de",
+      "bytes": 8856
+    },
+    {
+      "path": "packages/phase2-302/qf2_puntos_estado.py",
+      "source": "phase2/submissions/302-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-banco-union-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_puntos_estado.py",
+      "sha256": "30ea8b9f312e634f0a4e2418824867efa3ef9e8bc056d239dd0c434f605d1a67",
+      "bytes": 4214
+    },
+    {
+      "path": "packages/phase2-302/qf2_recolocado.py",
+      "source": "phase2/submissions/302-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-banco-union-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_recolocado.py",
+      "sha256": "adabfe6479321bb1eea6f1cab87224c74fd7bda96819caea0875e51b4aed7617",
+      "bytes": 9603
+    },
+    {
+      "path": "packages/phase2-302/qf2_recolocado_ejemplos.py",
+      "source": "phase2/submissions/302-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-banco-union-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_recolocado_ejemplos.py",
+      "sha256": "14cd8e4663ab8ec21dfb03ec21ba5169e324af5141eb3a189ee7203834a51f14",
+      "bytes": 5421
+    },
+    {
+      "path": "packages/phase2-302/qf2_recolocado_pares.py",
+      "source": "phase2/submissions/302-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-banco-union-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_recolocado_pares.py",
+      "sha256": "9ba0235cccc0759aa9f69269fad5056527832a205ca43d36288092e113cc03aa",
+      "bytes": 3440
+    },
+    {
+      "path": "packages/phase2-302/qf2_reparto.py",
+      "source": "phase2/submissions/302-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-banco-union-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_reparto.py",
+      "sha256": "f072f8fe53e4fdc08268f7e8cc8d05ff655674e6fc2a9eb56993aa73ed8bc093",
+      "bytes": 10157
+    },
+    {
+      "path": "packages/phase2-302/qf2_resumen.py",
+      "source": "phase2/submissions/302-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-banco-union-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_resumen.py",
+      "sha256": "9efefb2a23d520446cf36e2e8821c9ce7696db5f4d6712e9f6d856919851357b",
+      "bytes": 3072
+    },
+    {
+      "path": "packages/phase2-302/qf2_union.py",
+      "source": "phase2/submissions/302-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-banco-union-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/qf2_union.py",
+      "sha256": "d58ce4e2cc9c492cc8539d92f2d1ac97a69d41b5647b50207fb81da41579b3ed",
+      "bytes": 7034
+    },
+    {
+      "path": "packages/phase2-302/train.py",
+      "source": "phase2/submissions/302-pila-e-fp8-d18-bwdmat-d24mm-memhost-768w-resumen-banco-union-hilorap-canon-wd0-pcab-val-ve8-lr02-suelonc-aten1-cet1024-franjas8-mbs4-t61-s1/train.py",
+      "sha256": "3cc1e20fde307d7d43cf41bcba42411dec0057623ef2589109b3c8d76ce5a9bb",
+      "bytes": 113242
+    },
+    {
+      "path": "packages/phase2-338/BANDERAS",
+      "source": "phase2/submissions/338-agrupa-desde-cero-relacionados/BANDERAS",
+      "sha256": "cb9cd3192625f3a1a090cb9d791a239a3526f864e57648fe4e4ff574769d1142",
+      "bytes": 1039
+    },
+    {
+      "path": "packages/phase2-338/COMANDO",
+      "source": "phase2/submissions/338-agrupa-desde-cero-relacionados/COMANDO",
+      "sha256": "ba1490aa743585bb491b864c0d15936c83c74c03a906d23a123f79d6a07d2196",
+      "bytes": 88
+    },
+    {
+      "path": "packages/phase2-338/ce_trozos.py",
+      "source": "phase2/submissions/338-agrupa-desde-cero-relacionados/ce_trozos.py",
+      "sha256": "87137348d1628afb9aa2c40c40180f1f242b92596e66f0f751ff89daef9f7cf8",
+      "bytes": 4233
+    },
+    {
+      "path": "packages/phase2-338/cefa_nucleo.py",
+      "source": "phase2/submissions/338-agrupa-desde-cero-relacionados/cefa_nucleo.py",
+      "sha256": "73a1f4ca8a97849ba4679af492c03ebb1a2bf2fd3d34ff199701f4db8933acc7",
+      "bytes": 4576
+    },
+    {
+      "path": "packages/phase2-338/cefa_perdida.py",
+      "source": "phase2/submissions/338-agrupa-desde-cero-relacionados/cefa_perdida.py",
+      "sha256": "60a9ac4f94e448e44e34daadf8cba1e707493c6131db5dd280d6e31c5b455ad3",
+      "bytes": 2075
+    },
+    {
+      "path": "packages/phase2-338/envio/BANDERAS",
+      "source": "phase2/submissions/338-agrupa-desde-cero-relacionados/envio/BANDERAS",
+      "sha256": "cb9cd3192625f3a1a090cb9d791a239a3526f864e57648fe4e4ff574769d1142",
+      "bytes": 1039
+    },
+    {
+      "path": "packages/phase2-338/envio/COMANDO",
+      "source": "phase2/submissions/338-agrupa-desde-cero-relacionados/envio/COMANDO",
+      "sha256": "ba1490aa743585bb491b864c0d15936c83c74c03a906d23a123f79d6a07d2196",
+      "bytes": 88
+    },
+    {
+      "path": "packages/phase2-338/envio/inference.py",
+      "source": "phase2/submissions/338-agrupa-desde-cero-relacionados/envio/inference.py",
+      "sha256": "40cace5e521e271643c7352de067a53ecef046bc3a05e007ea029cbd601d3275",
+      "bytes": 2114
+    },
+    {
+      "path": "packages/phase2-338/envio/train.py",
+      "source": "phase2/submissions/338-agrupa-desde-cero-relacionados/envio/train.py",
+      "sha256": "51af8eda746bd3898f201ada45d63dbe83eb0dd0de80f67708e1f5842046f178",
+      "bytes": 422469
+    },
+    {
+      "path": "packages/phase2-338/inference.py",
+      "source": "phase2/submissions/338-agrupa-desde-cero-relacionados/inference.py",
+      "sha256": "40cace5e521e271643c7352de067a53ecef046bc3a05e007ea029cbd601d3275",
+      "bytes": 2114
+    },
+    {
+      "path": "packages/phase2-338/kernels/__init__.py",
+      "source": "phase2/submissions/338-agrupa-desde-cero-relacionados/kernels/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "packages/phase2-338/kernels/emb_dw.py",
+      "source": "phase2/submissions/338-agrupa-desde-cero-relacionados/kernels/emb_dw.py",
+      "sha256": "20655612b9a4117a2e58fac557cc48431810046712d83c20d59cafa413263207",
+      "bytes": 4684
+    },
+    {
+      "path": "packages/phase2-338/kernels/emb_op.py",
+      "source": "phase2/submissions/338-agrupa-desde-cero-relacionados/kernels/emb_op.py",
+      "sha256": "77704339033d16fc1e8123411610459d29287d78c495cec8336dc1c916e6c7ce",
+      "bytes": 3699
+    },
+    {
+      "path": "packages/phase2-338/kernels/emb_puerta.py",
+      "source": "phase2/submissions/338-agrupa-desde-cero-relacionados/kernels/emb_puerta.py",
+      "sha256": "dee18aaf3834211cac3457b3afcfda45a5f0bedafd5b8038e133b3707b6bc77d",
+      "bytes": 3216
+    },
+    {
+      "path": "packages/phase2-338/kernels/fp8_mlp_bwd_act.py",
+      "source": "phase2/submissions/338-agrupa-desde-cero-relacionados/kernels/fp8_mlp_bwd_act.py",
+      "sha256": "73cdd01efeed6659e713641261b2bdab00b55eb669b4cf925a2554d99e22305f",
+      "bytes": 11255
+    },
+    {
+      "path": "packages/phase2-338/kernels/fp8_mlp_comun.py",
+      "source": "phase2/submissions/338-agrupa-desde-cero-relacionados/kernels/fp8_mlp_comun.py",
+      "sha256": "58f07d29b61d7a7c0f14dceebcfaf5966191a3cc14c5ab88936ff19216ac20c5",
+      "bytes": 1698
+    },
+    {
+      "path": "packages/phase2-338/kernels/fp8_mlp_dw.py",
+      "source": "phase2/submissions/338-agrupa-desde-cero-relacionados/kernels/fp8_mlp_dw.py",
+      "sha256": "7194212d54a58af64d733ef0a3e8475a57167d6d10c70ba18a70cea1a1d4c66b",
+      "bytes": 2562
+    },
+    {
+      "path": "packages/phase2-338/kernels/fp8_mlp_emula.py",
+      "source": "phase2/submissions/338-agrupa-desde-cero-relacionados/kernels/fp8_mlp_emula.py",
+      "sha256": "9fbe967067dd68dc042e0a52fc48a73bab3ec4302d07ca3220f090ca843fee37",
+      "bytes": 1702
+    },
+    {
+      "path": "packages/phase2-338/kernels/fp8_mlp_fwd.py",
+      "source": "phase2/submissions/338-agrupa-desde-cero-relacionados/kernels/fp8_mlp_fwd.py",
+      "sha256": "b7fc5cc1c328c96402b000da62df2ff5e2f99714baaee9d16f52094de583e5ab",
+      "bytes": 5574
+    },
+    {
+      "path": "packages/phase2-338/kernels/fp8_mlp_op.py",
+      "source": "phase2/submissions/338-agrupa-desde-cero-relacionados/kernels/fp8_mlp_op.py",
+      "sha256": "31692cf0d83a8e2ed739753b1f428a6857aa5fefc4d745ca3b6e2fcd8dd9c3bc",
+      "bytes": 6889
+    },
+    {
+      "path": "packages/phase2-338/qf2_agrupa.py",
+      "source": "phase2/submissions/338-agrupa-desde-cero-relacionados/qf2_agrupa.py",
+      "sha256": "d16fded1d84a8145fbd5bd7f7fc93d7da82484617344e76e2e8deefad0227a80",
+      "bytes": 9264
+    },
+    {
+      "path": "packages/phase2-338/qf2_agrupa_fuente.py",
+      "source": "phase2/submissions/338-agrupa-desde-cero-relacionados/qf2_agrupa_fuente.py",
+      "sha256": "d6c1308dfa3164839723b8de88beb59eb871d7ac65f7d95ee94db67e2f635655",
+      "bytes": 1782
+    },
+    {
+      "path": "packages/phase2-338/qf2_brier.py",
+      "source": "phase2/submissions/338-agrupa-desde-cero-relacionados/qf2_brier.py",
+      "sha256": "13f307fad4e70df09950b5221593cb425299025d055459dc1de821b8bb73fcee",
+      "bytes": 4628
+    },
+    {
+      "path": "packages/phase2-338/qf2_cola.py",
+      "source": "phase2/submissions/338-agrupa-desde-cero-relacionados/qf2_cola.py",
+      "sha256": "7537f6a7b48eea907f58196d0d89748dc3991f242072a8e31a15d5bf1e0b801b",
+      "bytes": 3596
+    },
+    {
+      "path": "packages/phase2-338/qf2_corpus_constructor.py",
+      "source": "phase2/submissions/338-agrupa-desde-cero-relacionados/qf2_corpus_constructor.py",
+      "sha256": "765cbaaf68cb837bd175f4b17342735d90db9eb42f320b72bc1f95ff5e754f37",
+      "bytes": 7648
+    },
+    {
+      "path": "packages/phase2-338/qf2_corpus_mezcla.py",
+      "source": "phase2/submissions/338-agrupa-desde-cero-relacionados/qf2_corpus_mezcla.py",
+      "sha256": "0993d41392bc8c79cd91d6d16b17b2842b39c6ba13a0b386bde64e2968285ffe",
+      "bytes": 6771
+    },
+    {
+      "path": "packages/phase2-338/qf2_corpus_tabla.py",
+      "source": "phase2/submissions/338-agrupa-desde-cero-relacionados/qf2_corpus_tabla.py",
+      "sha256": "ce74808a070dfc38bdc0fd7e80662e8fe23bbf5315620514946f682e538bd74b",
+      "bytes": 6654
+    },
+    {
+      "path": "packages/phase2-338/qf2_diff.py",
+      "source": "phase2/submissions/338-agrupa-desde-cero-relacionados/qf2_diff.py",
+      "sha256": "95df4b696c203f8ee34d9de520a6be81ab5b82be4ab27d9985c78c9872a28a44",
+      "bytes": 3016
+    },
+    {
+      "path": "packages/phase2-338/qf2_equilibrio.py",
+      "source": "phase2/submissions/338-agrupa-desde-cero-relacionados/qf2_equilibrio.py",
+      "sha256": "4c71593e7d568dcf95be02afa42ef3240b67433653f4f290d3b34567bf65c71a",
+      "bytes": 6946
+    },
+    {
+      "path": "packages/phase2-338/qf2_filas.py",
+      "source": "phase2/submissions/338-agrupa-desde-cero-relacionados/qf2_filas.py",
+      "sha256": "b9cfcbb7d80f71c90c71c8dda950ab5ee024991dbd79f918c3f230daf66f2838",
+      "bytes": 7157
+    },
+    {
+      "path": "packages/phase2-338/qf2_flujo.py",
+      "source": "phase2/submissions/338-agrupa-desde-cero-relacionados/qf2_flujo.py",
+      "sha256": "688b41979e7c4190ee2c0d9691319c846396a4624307188b96d4690fc937b154",
+      "bytes": 9272
+    },
+    {
+      "path": "packages/phase2-338/qf2_franjas.py",
+      "source": "phase2/submissions/338-agrupa-desde-cero-relacionados/qf2_franjas.py",
+      "sha256": "6c2e104b2e17507e114aa63844ac2ddd8e42dcdc8dac73f2b1c8bd893f92ea5f",
+      "bytes": 5300
+    },
+    {
+      "path": "packages/phase2-338/qf2_guarda.py",
+      "source": "phase2/submissions/338-agrupa-desde-cero-relacionados/qf2_guarda.py",
+      "sha256": "5a35e41827af562c83f15018e3769990886805e759d9cd164374fbc160a34f2f",
+      "bytes": 2039
+    },
+    {
+      "path": "packages/phase2-338/qf2_guardado_anticipado.py",
+      "source": "phase2/submissions/338-agrupa-desde-cero-relacionados/qf2_guardado_anticipado.py",
+      "sha256": "2fb34d1caf37c934b3fcec188d822b5fc4513f4146774f2000a6159121ea749c",
+      "bytes": 4673
+    },
+    {
+      "path": "packages/phase2-338/qf2_hilos_aten.py",
+      "source": "phase2/submissions/338-agrupa-desde-cero-relacionados/qf2_hilos_aten.py",
+      "sha256": "130206d1c8b5d64977da4114ca4a4188571712b5fd2e244e8657c8938e1b7372",
+      "bytes": 1469
+    },
+    {
+      "path": "packages/phase2-338/qf2_hilos_nice.py",
+      "source": "phase2/submissions/338-agrupa-desde-cero-relacionados/qf2_hilos_nice.py",
+      "sha256": "e4cbf8ecbada9a613c06695cccb1fabd39b4b249ab7842b434ee2a434d7bb23b",
+      "bytes": 1254
+    },
+    {
+      "path": "packages/phase2-338/qf2_inicio.py",
+      "source": "phase2/submissions/338-agrupa-desde-cero-relacionados/qf2_inicio.py",
+      "sha256": "7e7737eade5cd7ca91ff2c2a5dc7773eb05b01b399dd47c40a29393e3b7ebe8b",
+      "bytes": 6766
+    },
+    {
+      "path": "packages/phase2-338/qf2_lotes.py",
+      "source": "phase2/submissions/338-agrupa-desde-cero-relacionados/qf2_lotes.py",
+      "sha256": "f266696380f13bc335c07c859d8a10f7e4ce8e39229bd28eb24ae6d71d975964",
+      "bytes": 2178
+    },
+    {
+      "path": "packages/phase2-338/qf2_memhost_canon.py",
+      "source": "phase2/submissions/338-agrupa-desde-cero-relacionados/qf2_memhost_canon.py",
+      "sha256": "75327e1f2b9e0bc20c8f61d758b679362a28a9dc3b3b9b7e17057a93ba716847",
+      "bytes": 1031
+    },
+    {
+      "path": "packages/phase2-338/qf2_memhost_cfg.py",
+      "source": "phase2/submissions/338-agrupa-desde-cero-relacionados/qf2_memhost_cfg.py",
+      "sha256": "d7fd312f6824f29a71e4240d6bcc9370a3b38a6404d48a075d1e72d90cf92c2c",
+      "bytes": 5403
+    },
+    {
+      "path": "packages/phase2-338/qf2_memhost_ckpt.py",
+      "source": "phase2/submissions/338-agrupa-desde-cero-relacionados/qf2_memhost_ckpt.py",
+      "sha256": "de697c8139217ca2850c64c4ed7f82289ea51398bf24b4938f393815d62e64a8",
+      "bytes": 3716
+    },
+    {
+      "path": "packages/phase2-338/qf2_memhost_cuantiza.py",
+      "source": "phase2/submissions/338-agrupa-desde-cero-relacionados/qf2_memhost_cuantiza.py",
+      "sha256": "c6e734cc26e269d072f60e172add49432ec67c87657ffbf60a724de45593f425",
+      "bytes": 1191
+    },
+    {
+      "path": "packages/phase2-338/qf2_memhost_hash.py",
+      "source": "phase2/submissions/338-agrupa-desde-cero-relacionados/qf2_memhost_hash.py",
+      "sha256": "5dbfd036dcf2ee730a21e3dba81b582cd0f5d9ab056f0887575d7b83c8c14390",
+      "bytes": 2948
+    },
+    {
+      "path": "packages/phase2-338/qf2_memhost_hilo.py",
+      "source": "phase2/submissions/338-agrupa-desde-cero-relacionados/qf2_memhost_hilo.py",
+      "sha256": "7c1eb6ca1049991ed33ee34e585ef1c30b7d3604a6dc4c1bd68f387da37f1eb0",
+      "bytes": 8293
+    },
+    {
+      "path": "packages/phase2-338/qf2_memhost_hojas.py",
+      "source": "phase2/submissions/338-agrupa-desde-cero-relacionados/qf2_memhost_hojas.py",
+      "sha256": "5344e45b5c18e26933c6a13fa2244fb6e9f65a3732c5490544669eb913324964",
+      "bytes": 1564
+    },
+    {
+      "path": "packages/phase2-338/qf2_memhost_intercambio.py",
+      "source": "phase2/submissions/338-agrupa-desde-cero-relacionados/qf2_memhost_intercambio.py",
+      "sha256": "55f11dfda2130c2c3b1ac42ad4ee398ab562137718d651419e5e2657621f1763",
+      "bytes": 2265
+    },
+    {
+      "path": "packages/phase2-338/qf2_memhost_opt.py",
+      "source": "phase2/submissions/338-agrupa-desde-cero-relacionados/qf2_memhost_opt.py",
+      "sha256": "a66324646c92885aa49ed30d4a4d85c167d52f119683a52bac4b620c6830c49a",
+      "bytes": 2460
+    },
+    {
+      "path": "packages/phase2-338/qf2_memhost_rapido.py",
+      "source": "phase2/submissions/338-agrupa-desde-cero-relacionados/qf2_memhost_rapido.py",
+      "sha256": "c27968d2c10bf0804a07c2ee67f6f108f8ede0777c7e05087108158335d4d317",
+      "bytes": 6203
+    },
+    {
+      "path": "packages/phase2-338/qf2_memhost_sincro.py",
+      "source": "phase2/submissions/338-agrupa-desde-cero-relacionados/qf2_memhost_sincro.py",
+      "sha256": "3fe4b8092d632d5bacb9ab1d2c31ffe62a3e9c1af5dc809a6f5519b82f86884d",
+      "bytes": 2390
+    },
+    {
+      "path": "packages/phase2-338/qf2_memhost_sitios.py",
+      "source": "phase2/submissions/338-agrupa-desde-cero-relacionados/qf2_memhost_sitios.py",
+      "sha256": "c2f9837b746aabadccef3068a6f38e450d35f3e1177502790fb4e34dd2f6961f",
+      "bytes": 4429
+    },
+    {
+      "path": "packages/phase2-338/qf2_memhost_tabla.py",
+      "source": "phase2/submissions/338-agrupa-desde-cero-relacionados/qf2_memhost_tabla.py",
+      "sha256": "011eb804e89d6f3f03abaf3c3258a5411dd94acdde3152ccfff47fb85742972b",
+      "bytes": 3887
+    },
+    {
+      "path": "packages/phase2-338/qf2_memhost_traza.py",
+      "source": "phase2/submissions/338-agrupa-desde-cero-relacionados/qf2_memhost_traza.py",
+      "sha256": "a94ab428a50bb4b9c67b05f7f1e5d71d9a45a37b15851438b4c4390ef7b9eba9",
+      "bytes": 3196
+    },
+    {
+      "path": "packages/phase2-338/qf2_memoria.py",
+      "source": "phase2/submissions/338-agrupa-desde-cero-relacionados/qf2_memoria.py",
+      "sha256": "39b511f94419d60715a279fefb7a57bda31761629ff1a910d8d3706de555a36a",
+      "bytes": 6865
+    },
+    {
+      "path": "packages/phase2-338/qf2_memoria_a2a.py",
+      "source": "phase2/submissions/338-agrupa-desde-cero-relacionados/qf2_memoria_a2a.py",
+      "sha256": "3a22ecb919d544e98f9a5652a7b0eecc7a45b9c391e3c67645c68c9ed6261af4",
+      "bytes": 4436
+    },
+    {
+      "path": "packages/phase2-338/qf2_memoria_anfitrion.py",
+      "source": "phase2/submissions/338-agrupa-desde-cero-relacionados/qf2_memoria_anfitrion.py",
+      "sha256": "e4c0b997464e55dfac66d3379ea0faa244a494470cd218c35de2c811876a0c03",
+      "bytes": 2369
+    },
+    {
+      "path": "packages/phase2-338/qf2_memoria_ckpt.py",
+      "source": "phase2/submissions/338-agrupa-desde-cero-relacionados/qf2_memoria_ckpt.py",
+      "sha256": "a06df4c8a5c7f99141bd6f89967b2ad0f52c0b3d23bfcf219c012516b286d60d",
+      "bytes": 1495
+    },
+    {
+      "path": "packages/phase2-338/qf2_memoria_opt.py",
+      "source": "phase2/submissions/338-agrupa-desde-cero-relacionados/qf2_memoria_opt.py",
+      "sha256": "a7a4116b9d643763ac20dc6b3d35b21ba473e7d635c1289facddc1ad8efb68d7",
+      "bytes": 1414
+    },
+    {
+      "path": "packages/phase2-338/qf2_mos.py",
+      "source": "phase2/submissions/338-agrupa-desde-cero-relacionados/qf2_mos.py",
+      "sha256": "0202f6230fc6f90cb9322b97e4e30bd5d0a85b9c96f902954a35165ebb60e0f4",
+      "bytes": 5161
+    },
+    {
+      "path": "packages/phase2-338/qf2_ngramas.py",
+      "source": "phase2/submissions/338-agrupa-desde-cero-relacionados/qf2_ngramas.py",
+      "sha256": "95522fb51527d8e9a771643f476dd21dcf4f2dbcf676f28a66c13ea9d0a93992",
+      "bytes": 2604
+    },
+    {
+      "path": "packages/phase2-338/qf2_objetivos.py",
+      "source": "phase2/submissions/338-agrupa-desde-cero-relacionados/qf2_objetivos.py",
+      "sha256": "a815892656a0ea54dc8ee65e945b77742604dbbbfd1d7411795db5e8f04cffbd",
+      "bytes": 6895
+    },
+    {
+      "path": "packages/phase2-338/qf2_opt_compilado.py",
+      "source": "phase2/submissions/338-agrupa-desde-cero-relacionados/qf2_opt_compilado.py",
+      "sha256": "b2d41de10b0088dd4e40e22a3aeb560df603699fd68e247734da81d98721e02a",
+      "bytes": 5472
+    },
+    {
+      "path": "packages/phase2-338/qf2_peso_contexto.py",
+      "source": "phase2/submissions/338-agrupa-desde-cero-relacionados/qf2_peso_contexto.py",
+      "sha256": "c424899aa62bb4c247ecf36adcdc264ce0755ec47b7142efc52e070bc64f2998",
+      "bytes": 7825
+    },
+    {
+      "path": "packages/phase2-338/qf2_peso_rasgos.py",
+      "source": "phase2/submissions/338-agrupa-desde-cero-relacionados/qf2_peso_rasgos.py",
+      "sha256": "58f59c87b96ddde5fbc1055bd6375f4775f775a1eab526dee8f82b94c84b7f52",
+      "bytes": 4239
+    },
+    {
+      "path": "packages/phase2-338/qf2_pkm.py",
+      "source": "phase2/submissions/338-agrupa-desde-cero-relacionados/qf2_pkm.py",
+      "sha256": "e53c70057290440c328d3d09ca5a9332e70a552aa1cab02ef144e1520439f59b",
+      "bytes": 3700
+    },
+    {
+      "path": "packages/phase2-338/qf2_plano.py",
+      "source": "phase2/submissions/338-agrupa-desde-cero-relacionados/qf2_plano.py",
+      "sha256": "77e458d43a0747161d00c88e9d6a45e08d46450b2385f1cea6d6b669fe79272a",
+      "bytes": 936
+    },
+    {
+      "path": "packages/phase2-338/qf2_precarga.py",
+      "source": "phase2/submissions/338-agrupa-desde-cero-relacionados/qf2_precarga.py",
+      "sha256": "2cbbe9552c0c8942780ec09fb8846445ebaa3cc49f931aeb73ae4b1781a664b4",
+      "bytes": 4462
+    },
+    {
+      "path": "packages/phase2-338/qf2_promedio.py",
+      "source": "phase2/submissions/338-agrupa-desde-cero-relacionados/qf2_promedio.py",
+      "sha256": "3f4806a1e3859cb1312af61ffe68c2d49c61cae4ce704bafc0ad8b2c799b0148",
+      "bytes": 2047
+    },
+    {
+      "path": "packages/phase2-338/qf2_puntos.py",
+      "source": "phase2/submissions/338-agrupa-desde-cero-relacionados/qf2_puntos.py",
+      "sha256": "91188c483dc3eab27482625b18d3e552c0ad8fbe66f1ba9a19ee5f6b7cb055de",
+      "bytes": 8856
+    },
+    {
+      "path": "packages/phase2-338/qf2_puntos_estado.py",
+      "source": "phase2/submissions/338-agrupa-desde-cero-relacionados/qf2_puntos_estado.py",
+      "sha256": "30ea8b9f312e634f0a4e2418824867efa3ef9e8bc056d239dd0c434f605d1a67",
+      "bytes": 4214
+    },
+    {
+      "path": "packages/phase2-338/qf2_recolocado.py",
+      "source": "phase2/submissions/338-agrupa-desde-cero-relacionados/qf2_recolocado.py",
+      "sha256": "adabfe6479321bb1eea6f1cab87224c74fd7bda96819caea0875e51b4aed7617",
+      "bytes": 9603
+    },
+    {
+      "path": "packages/phase2-338/qf2_recolocado_ejemplos.py",
+      "source": "phase2/submissions/338-agrupa-desde-cero-relacionados/qf2_recolocado_ejemplos.py",
+      "sha256": "14cd8e4663ab8ec21dfb03ec21ba5169e324af5141eb3a189ee7203834a51f14",
+      "bytes": 5421
+    },
+    {
+      "path": "packages/phase2-338/qf2_recolocado_pares.py",
+      "source": "phase2/submissions/338-agrupa-desde-cero-relacionados/qf2_recolocado_pares.py",
+      "sha256": "9ba0235cccc0759aa9f69269fad5056527832a205ca43d36288092e113cc03aa",
+      "bytes": 3440
+    },
+    {
+      "path": "packages/phase2-338/qf2_reparto.py",
+      "source": "phase2/submissions/338-agrupa-desde-cero-relacionados/qf2_reparto.py",
+      "sha256": "f072f8fe53e4fdc08268f7e8cc8d05ff655674e6fc2a9eb56993aa73ed8bc093",
+      "bytes": 10157
+    },
+    {
+      "path": "packages/phase2-338/qf2_resumen.py",
+      "source": "phase2/submissions/338-agrupa-desde-cero-relacionados/qf2_resumen.py",
+      "sha256": "9efefb2a23d520446cf36e2e8821c9ce7696db5f4d6712e9f6d856919851357b",
+      "bytes": 3072
+    },
+    {
+      "path": "packages/phase2-338/qf2_union.py",
+      "source": "phase2/submissions/338-agrupa-desde-cero-relacionados/qf2_union.py",
+      "sha256": "d58ce4e2cc9c492cc8539d92f2d1ac97a69d41b5647b50207fb81da41579b3ed",
+      "bytes": 7034
+    },
+    {
+      "path": "packages/phase2-338/train.py",
+      "source": "phase2/submissions/338-agrupa-desde-cero-relacionados/train.py",
+      "sha256": "9f5c4bba325c08cf266cdedaa7658f8c709732cafd10edec20e361e768710de6",
+      "bytes": 113653
+    },
+    {
+      "path": "packages/phase2-339/BANDERAS",
+      "source": "phase2/submissions/339-agrupa-desde-cero-azar/BANDERAS",
+      "sha256": "613c89925737e72036e4516fa0de04b80d9b65ad2c98795f59e56d1544057c76",
+      "bytes": 1031
+    },
+    {
+      "path": "packages/phase2-339/COMANDO",
+      "source": "phase2/submissions/339-agrupa-desde-cero-azar/COMANDO",
+      "sha256": "ba1490aa743585bb491b864c0d15936c83c74c03a906d23a123f79d6a07d2196",
+      "bytes": 88
+    },
+    {
+      "path": "packages/phase2-339/ce_trozos.py",
+      "source": "phase2/submissions/339-agrupa-desde-cero-azar/ce_trozos.py",
+      "sha256": "87137348d1628afb9aa2c40c40180f1f242b92596e66f0f751ff89daef9f7cf8",
+      "bytes": 4233
+    },
+    {
+      "path": "packages/phase2-339/cefa_nucleo.py",
+      "source": "phase2/submissions/339-agrupa-desde-cero-azar/cefa_nucleo.py",
+      "sha256": "73a1f4ca8a97849ba4679af492c03ebb1a2bf2fd3d34ff199701f4db8933acc7",
+      "bytes": 4576
+    },
+    {
+      "path": "packages/phase2-339/cefa_perdida.py",
+      "source": "phase2/submissions/339-agrupa-desde-cero-azar/cefa_perdida.py",
+      "sha256": "60a9ac4f94e448e44e34daadf8cba1e707493c6131db5dd280d6e31c5b455ad3",
+      "bytes": 2075
+    },
+    {
+      "path": "packages/phase2-339/envio/BANDERAS",
+      "source": "phase2/submissions/339-agrupa-desde-cero-azar/envio/BANDERAS",
+      "sha256": "613c89925737e72036e4516fa0de04b80d9b65ad2c98795f59e56d1544057c76",
+      "bytes": 1031
+    },
+    {
+      "path": "packages/phase2-339/envio/COMANDO",
+      "source": "phase2/submissions/339-agrupa-desde-cero-azar/envio/COMANDO",
+      "sha256": "ba1490aa743585bb491b864c0d15936c83c74c03a906d23a123f79d6a07d2196",
+      "bytes": 88
+    },
+    {
+      "path": "packages/phase2-339/envio/inference.py",
+      "source": "phase2/submissions/339-agrupa-desde-cero-azar/envio/inference.py",
+      "sha256": "40cace5e521e271643c7352de067a53ecef046bc3a05e007ea029cbd601d3275",
+      "bytes": 2114
+    },
+    {
+      "path": "packages/phase2-339/envio/train.py",
+      "source": "phase2/submissions/339-agrupa-desde-cero-azar/envio/train.py",
+      "sha256": "dff95a488ef2b16377525f0116723c341ac751acbd4b2749af79c5e41fb1ae30",
+      "bytes": 422461
+    },
+    {
+      "path": "packages/phase2-339/inference.py",
+      "source": "phase2/submissions/339-agrupa-desde-cero-azar/inference.py",
+      "sha256": "40cace5e521e271643c7352de067a53ecef046bc3a05e007ea029cbd601d3275",
+      "bytes": 2114
+    },
+    {
+      "path": "packages/phase2-339/kernels/__init__.py",
+      "source": "phase2/submissions/339-agrupa-desde-cero-azar/kernels/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "packages/phase2-339/kernels/emb_dw.py",
+      "source": "phase2/submissions/339-agrupa-desde-cero-azar/kernels/emb_dw.py",
+      "sha256": "20655612b9a4117a2e58fac557cc48431810046712d83c20d59cafa413263207",
+      "bytes": 4684
+    },
+    {
+      "path": "packages/phase2-339/kernels/emb_op.py",
+      "source": "phase2/submissions/339-agrupa-desde-cero-azar/kernels/emb_op.py",
+      "sha256": "77704339033d16fc1e8123411610459d29287d78c495cec8336dc1c916e6c7ce",
+      "bytes": 3699
+    },
+    {
+      "path": "packages/phase2-339/kernels/emb_puerta.py",
+      "source": "phase2/submissions/339-agrupa-desde-cero-azar/kernels/emb_puerta.py",
+      "sha256": "dee18aaf3834211cac3457b3afcfda45a5f0bedafd5b8038e133b3707b6bc77d",
+      "bytes": 3216
+    },
+    {
+      "path": "packages/phase2-339/kernels/fp8_mlp_bwd_act.py",
+      "source": "phase2/submissions/339-agrupa-desde-cero-azar/kernels/fp8_mlp_bwd_act.py",
+      "sha256": "73cdd01efeed6659e713641261b2bdab00b55eb669b4cf925a2554d99e22305f",
+      "bytes": 11255
+    },
+    {
+      "path": "packages/phase2-339/kernels/fp8_mlp_comun.py",
+      "source": "phase2/submissions/339-agrupa-desde-cero-azar/kernels/fp8_mlp_comun.py",
+      "sha256": "58f07d29b61d7a7c0f14dceebcfaf5966191a3cc14c5ab88936ff19216ac20c5",
+      "bytes": 1698
+    },
+    {
+      "path": "packages/phase2-339/kernels/fp8_mlp_dw.py",
+      "source": "phase2/submissions/339-agrupa-desde-cero-azar/kernels/fp8_mlp_dw.py",
+      "sha256": "7194212d54a58af64d733ef0a3e8475a57167d6d10c70ba18a70cea1a1d4c66b",
+      "bytes": 2562
+    },
+    {
+      "path": "packages/phase2-339/kernels/fp8_mlp_emula.py",
+      "source": "phase2/submissions/339-agrupa-desde-cero-azar/kernels/fp8_mlp_emula.py",
+      "sha256": "9fbe967067dd68dc042e0a52fc48a73bab3ec4302d07ca3220f090ca843fee37",
+      "bytes": 1702
+    },
+    {
+      "path": "packages/phase2-339/kernels/fp8_mlp_fwd.py",
+      "source": "phase2/submissions/339-agrupa-desde-cero-azar/kernels/fp8_mlp_fwd.py",
+      "sha256": "b7fc5cc1c328c96402b000da62df2ff5e2f99714baaee9d16f52094de583e5ab",
+      "bytes": 5574
+    },
+    {
+      "path": "packages/phase2-339/kernels/fp8_mlp_op.py",
+      "source": "phase2/submissions/339-agrupa-desde-cero-azar/kernels/fp8_mlp_op.py",
+      "sha256": "31692cf0d83a8e2ed739753b1f428a6857aa5fefc4d745ca3b6e2fcd8dd9c3bc",
+      "bytes": 6889
+    },
+    {
+      "path": "packages/phase2-339/qf2_agrupa.py",
+      "source": "phase2/submissions/339-agrupa-desde-cero-azar/qf2_agrupa.py",
+      "sha256": "d16fded1d84a8145fbd5bd7f7fc93d7da82484617344e76e2e8deefad0227a80",
+      "bytes": 9264
+    },
+    {
+      "path": "packages/phase2-339/qf2_agrupa_fuente.py",
+      "source": "phase2/submissions/339-agrupa-desde-cero-azar/qf2_agrupa_fuente.py",
+      "sha256": "d6c1308dfa3164839723b8de88beb59eb871d7ac65f7d95ee94db67e2f635655",
+      "bytes": 1782
+    },
+    {
+      "path": "packages/phase2-339/qf2_brier.py",
+      "source": "phase2/submissions/339-agrupa-desde-cero-azar/qf2_brier.py",
+      "sha256": "13f307fad4e70df09950b5221593cb425299025d055459dc1de821b8bb73fcee",
+      "bytes": 4628
+    },
+    {
+      "path": "packages/phase2-339/qf2_cola.py",
+      "source": "phase2/submissions/339-agrupa-desde-cero-azar/qf2_cola.py",
+      "sha256": "7537f6a7b48eea907f58196d0d89748dc3991f242072a8e31a15d5bf1e0b801b",
+      "bytes": 3596
+    },
+    {
+      "path": "packages/phase2-339/qf2_corpus_constructor.py",
+      "source": "phase2/submissions/339-agrupa-desde-cero-azar/qf2_corpus_constructor.py",
+      "sha256": "765cbaaf68cb837bd175f4b17342735d90db9eb42f320b72bc1f95ff5e754f37",
+      "bytes": 7648
+    },
+    {
+      "path": "packages/phase2-339/qf2_corpus_mezcla.py",
+      "source": "phase2/submissions/339-agrupa-desde-cero-azar/qf2_corpus_mezcla.py",
+      "sha256": "0993d41392bc8c79cd91d6d16b17b2842b39c6ba13a0b386bde64e2968285ffe",
+      "bytes": 6771
+    },
+    {
+      "path": "packages/phase2-339/qf2_corpus_tabla.py",
+      "source": "phase2/submissions/339-agrupa-desde-cero-azar/qf2_corpus_tabla.py",
+      "sha256": "ce74808a070dfc38bdc0fd7e80662e8fe23bbf5315620514946f682e538bd74b",
+      "bytes": 6654
+    },
+    {
+      "path": "packages/phase2-339/qf2_diff.py",
+      "source": "phase2/submissions/339-agrupa-desde-cero-azar/qf2_diff.py",
+      "sha256": "95df4b696c203f8ee34d9de520a6be81ab5b82be4ab27d9985c78c9872a28a44",
+      "bytes": 3016
+    },
+    {
+      "path": "packages/phase2-339/qf2_equilibrio.py",
+      "source": "phase2/submissions/339-agrupa-desde-cero-azar/qf2_equilibrio.py",
+      "sha256": "4c71593e7d568dcf95be02afa42ef3240b67433653f4f290d3b34567bf65c71a",
+      "bytes": 6946
+    },
+    {
+      "path": "packages/phase2-339/qf2_filas.py",
+      "source": "phase2/submissions/339-agrupa-desde-cero-azar/qf2_filas.py",
+      "sha256": "b9cfcbb7d80f71c90c71c8dda950ab5ee024991dbd79f918c3f230daf66f2838",
+      "bytes": 7157
+    },
+    {
+      "path": "packages/phase2-339/qf2_flujo.py",
+      "source": "phase2/submissions/339-agrupa-desde-cero-azar/qf2_flujo.py",
+      "sha256": "688b41979e7c4190ee2c0d9691319c846396a4624307188b96d4690fc937b154",
+      "bytes": 9272
+    },
+    {
+      "path": "packages/phase2-339/qf2_franjas.py",
+      "source": "phase2/submissions/339-agrupa-desde-cero-azar/qf2_franjas.py",
+      "sha256": "6c2e104b2e17507e114aa63844ac2ddd8e42dcdc8dac73f2b1c8bd893f92ea5f",
+      "bytes": 5300
+    },
+    {
+      "path": "packages/phase2-339/qf2_guarda.py",
+      "source": "phase2/submissions/339-agrupa-desde-cero-azar/qf2_guarda.py",
+      "sha256": "5a35e41827af562c83f15018e3769990886805e759d9cd164374fbc160a34f2f",
+      "bytes": 2039
+    },
+    {
+      "path": "packages/phase2-339/qf2_guardado_anticipado.py",
+      "source": "phase2/submissions/339-agrupa-desde-cero-azar/qf2_guardado_anticipado.py",
+      "sha256": "2fb34d1caf37c934b3fcec188d822b5fc4513f4146774f2000a6159121ea749c",
+      "bytes": 4673
+    },
+    {
+      "path": "packages/phase2-339/qf2_hilos_aten.py",
+      "source": "phase2/submissions/339-agrupa-desde-cero-azar/qf2_hilos_aten.py",
+      "sha256": "130206d1c8b5d64977da4114ca4a4188571712b5fd2e244e8657c8938e1b7372",
+      "bytes": 1469
+    },
+    {
+      "path": "packages/phase2-339/qf2_hilos_nice.py",
+      "source": "phase2/submissions/339-agrupa-desde-cero-azar/qf2_hilos_nice.py",
+      "sha256": "e4cbf8ecbada9a613c06695cccb1fabd39b4b249ab7842b434ee2a434d7bb23b",
+      "bytes": 1254
+    },
+    {
+      "path": "packages/phase2-339/qf2_inicio.py",
+      "source": "phase2/submissions/339-agrupa-desde-cero-azar/qf2_inicio.py",
+      "sha256": "7e7737eade5cd7ca91ff2c2a5dc7773eb05b01b399dd47c40a29393e3b7ebe8b",
+      "bytes": 6766
+    },
+    {
+      "path": "packages/phase2-339/qf2_lotes.py",
+      "source": "phase2/submissions/339-agrupa-desde-cero-azar/qf2_lotes.py",
+      "sha256": "f266696380f13bc335c07c859d8a10f7e4ce8e39229bd28eb24ae6d71d975964",
+      "bytes": 2178
+    },
+    {
+      "path": "packages/phase2-339/qf2_memhost_canon.py",
+      "source": "phase2/submissions/339-agrupa-desde-cero-azar/qf2_memhost_canon.py",
+      "sha256": "75327e1f2b9e0bc20c8f61d758b679362a28a9dc3b3b9b7e17057a93ba716847",
+      "bytes": 1031
+    },
+    {
+      "path": "packages/phase2-339/qf2_memhost_cfg.py",
+      "source": "phase2/submissions/339-agrupa-desde-cero-azar/qf2_memhost_cfg.py",
+      "sha256": "d7fd312f6824f29a71e4240d6bcc9370a3b38a6404d48a075d1e72d90cf92c2c",
+      "bytes": 5403
+    },
+    {
+      "path": "packages/phase2-339/qf2_memhost_ckpt.py",
+      "source": "phase2/submissions/339-agrupa-desde-cero-azar/qf2_memhost_ckpt.py",
+      "sha256": "de697c8139217ca2850c64c4ed7f82289ea51398bf24b4938f393815d62e64a8",
+      "bytes": 3716
+    },
+    {
+      "path": "packages/phase2-339/qf2_memhost_cuantiza.py",
+      "source": "phase2/submissions/339-agrupa-desde-cero-azar/qf2_memhost_cuantiza.py",
+      "sha256": "c6e734cc26e269d072f60e172add49432ec67c87657ffbf60a724de45593f425",
+      "bytes": 1191
+    },
+    {
+      "path": "packages/phase2-339/qf2_memhost_hash.py",
+      "source": "phase2/submissions/339-agrupa-desde-cero-azar/qf2_memhost_hash.py",
+      "sha256": "5dbfd036dcf2ee730a21e3dba81b582cd0f5d9ab056f0887575d7b83c8c14390",
+      "bytes": 2948
+    },
+    {
+      "path": "packages/phase2-339/qf2_memhost_hilo.py",
+      "source": "phase2/submissions/339-agrupa-desde-cero-azar/qf2_memhost_hilo.py",
+      "sha256": "7c1eb6ca1049991ed33ee34e585ef1c30b7d3604a6dc4c1bd68f387da37f1eb0",
+      "bytes": 8293
+    },
+    {
+      "path": "packages/phase2-339/qf2_memhost_hojas.py",
+      "source": "phase2/submissions/339-agrupa-desde-cero-azar/qf2_memhost_hojas.py",
+      "sha256": "5344e45b5c18e26933c6a13fa2244fb6e9f65a3732c5490544669eb913324964",
+      "bytes": 1564
+    },
+    {
+      "path": "packages/phase2-339/qf2_memhost_intercambio.py",
+      "source": "phase2/submissions/339-agrupa-desde-cero-azar/qf2_memhost_intercambio.py",
+      "sha256": "55f11dfda2130c2c3b1ac42ad4ee398ab562137718d651419e5e2657621f1763",
+      "bytes": 2265
+    },
+    {
+      "path": "packages/phase2-339/qf2_memhost_opt.py",
+      "source": "phase2/submissions/339-agrupa-desde-cero-azar/qf2_memhost_opt.py",
+      "sha256": "a66324646c92885aa49ed30d4a4d85c167d52f119683a52bac4b620c6830c49a",
+      "bytes": 2460
+    },
+    {
+      "path": "packages/phase2-339/qf2_memhost_rapido.py",
+      "source": "phase2/submissions/339-agrupa-desde-cero-azar/qf2_memhost_rapido.py",
+      "sha256": "c27968d2c10bf0804a07c2ee67f6f108f8ede0777c7e05087108158335d4d317",
+      "bytes": 6203
+    },
+    {
+      "path": "packages/phase2-339/qf2_memhost_sincro.py",
+      "source": "phase2/submissions/339-agrupa-desde-cero-azar/qf2_memhost_sincro.py",
+      "sha256": "3fe4b8092d632d5bacb9ab1d2c31ffe62a3e9c1af5dc809a6f5519b82f86884d",
+      "bytes": 2390
+    },
+    {
+      "path": "packages/phase2-339/qf2_memhost_sitios.py",
+      "source": "phase2/submissions/339-agrupa-desde-cero-azar/qf2_memhost_sitios.py",
+      "sha256": "c2f9837b746aabadccef3068a6f38e450d35f3e1177502790fb4e34dd2f6961f",
+      "bytes": 4429
+    },
+    {
+      "path": "packages/phase2-339/qf2_memhost_tabla.py",
+      "source": "phase2/submissions/339-agrupa-desde-cero-azar/qf2_memhost_tabla.py",
+      "sha256": "011eb804e89d6f3f03abaf3c3258a5411dd94acdde3152ccfff47fb85742972b",
+      "bytes": 3887
+    },
+    {
+      "path": "packages/phase2-339/qf2_memhost_traza.py",
+      "source": "phase2/submissions/339-agrupa-desde-cero-azar/qf2_memhost_traza.py",
+      "sha256": "a94ab428a50bb4b9c67b05f7f1e5d71d9a45a37b15851438b4c4390ef7b9eba9",
+      "bytes": 3196
+    },
+    {
+      "path": "packages/phase2-339/qf2_memoria.py",
+      "source": "phase2/submissions/339-agrupa-desde-cero-azar/qf2_memoria.py",
+      "sha256": "39b511f94419d60715a279fefb7a57bda31761629ff1a910d8d3706de555a36a",
+      "bytes": 6865
+    },
+    {
+      "path": "packages/phase2-339/qf2_memoria_a2a.py",
+      "source": "phase2/submissions/339-agrupa-desde-cero-azar/qf2_memoria_a2a.py",
+      "sha256": "3a22ecb919d544e98f9a5652a7b0eecc7a45b9c391e3c67645c68c9ed6261af4",
+      "bytes": 4436
+    },
+    {
+      "path": "packages/phase2-339/qf2_memoria_anfitrion.py",
+      "source": "phase2/submissions/339-agrupa-desde-cero-azar/qf2_memoria_anfitrion.py",
+      "sha256": "e4c0b997464e55dfac66d3379ea0faa244a494470cd218c35de2c811876a0c03",
+      "bytes": 2369
+    },
+    {
+      "path": "packages/phase2-339/qf2_memoria_ckpt.py",
+      "source": "phase2/submissions/339-agrupa-desde-cero-azar/qf2_memoria_ckpt.py",
+      "sha256": "a06df4c8a5c7f99141bd6f89967b2ad0f52c0b3d23bfcf219c012516b286d60d",
+      "bytes": 1495
+    },
+    {
+      "path": "packages/phase2-339/qf2_memoria_opt.py",
+      "source": "phase2/submissions/339-agrupa-desde-cero-azar/qf2_memoria_opt.py",
+      "sha256": "a7a4116b9d643763ac20dc6b3d35b21ba473e7d635c1289facddc1ad8efb68d7",
+      "bytes": 1414
+    },
+    {
+      "path": "packages/phase2-339/qf2_mos.py",
+      "source": "phase2/submissions/339-agrupa-desde-cero-azar/qf2_mos.py",
+      "sha256": "0202f6230fc6f90cb9322b97e4e30bd5d0a85b9c96f902954a35165ebb60e0f4",
+      "bytes": 5161
+    },
+    {
+      "path": "packages/phase2-339/qf2_ngramas.py",
+      "source": "phase2/submissions/339-agrupa-desde-cero-azar/qf2_ngramas.py",
+      "sha256": "95522fb51527d8e9a771643f476dd21dcf4f2dbcf676f28a66c13ea9d0a93992",
+      "bytes": 2604
+    },
+    {
+      "path": "packages/phase2-339/qf2_objetivos.py",
+      "source": "phase2/submissions/339-agrupa-desde-cero-azar/qf2_objetivos.py",
+      "sha256": "a815892656a0ea54dc8ee65e945b77742604dbbbfd1d7411795db5e8f04cffbd",
+      "bytes": 6895
+    },
+    {
+      "path": "packages/phase2-339/qf2_opt_compilado.py",
+      "source": "phase2/submissions/339-agrupa-desde-cero-azar/qf2_opt_compilado.py",
+      "sha256": "b2d41de10b0088dd4e40e22a3aeb560df603699fd68e247734da81d98721e02a",
+      "bytes": 5472
+    },
+    {
+      "path": "packages/phase2-339/qf2_peso_contexto.py",
+      "source": "phase2/submissions/339-agrupa-desde-cero-azar/qf2_peso_contexto.py",
+      "sha256": "c424899aa62bb4c247ecf36adcdc264ce0755ec47b7142efc52e070bc64f2998",
+      "bytes": 7825
+    },
+    {
+      "path": "packages/phase2-339/qf2_peso_rasgos.py",
+      "source": "phase2/submissions/339-agrupa-desde-cero-azar/qf2_peso_rasgos.py",
+      "sha256": "58f59c87b96ddde5fbc1055bd6375f4775f775a1eab526dee8f82b94c84b7f52",
+      "bytes": 4239
+    },
+    {
+      "path": "packages/phase2-339/qf2_pkm.py",
+      "source": "phase2/submissions/339-agrupa-desde-cero-azar/qf2_pkm.py",
+      "sha256": "e53c70057290440c328d3d09ca5a9332e70a552aa1cab02ef144e1520439f59b",
+      "bytes": 3700
+    },
+    {
+      "path": "packages/phase2-339/qf2_plano.py",
+      "source": "phase2/submissions/339-agrupa-desde-cero-azar/qf2_plano.py",
+      "sha256": "77e458d43a0747161d00c88e9d6a45e08d46450b2385f1cea6d6b669fe79272a",
+      "bytes": 936
+    },
+    {
+      "path": "packages/phase2-339/qf2_precarga.py",
+      "source": "phase2/submissions/339-agrupa-desde-cero-azar/qf2_precarga.py",
+      "sha256": "2cbbe9552c0c8942780ec09fb8846445ebaa3cc49f931aeb73ae4b1781a664b4",
+      "bytes": 4462
+    },
+    {
+      "path": "packages/phase2-339/qf2_promedio.py",
+      "source": "phase2/submissions/339-agrupa-desde-cero-azar/qf2_promedio.py",
+      "sha256": "3f4806a1e3859cb1312af61ffe68c2d49c61cae4ce704bafc0ad8b2c799b0148",
+      "bytes": 2047
+    },
+    {
+      "path": "packages/phase2-339/qf2_puntos.py",
+      "source": "phase2/submissions/339-agrupa-desde-cero-azar/qf2_puntos.py",
+      "sha256": "91188c483dc3eab27482625b18d3e552c0ad8fbe66f1ba9a19ee5f6b7cb055de",
+      "bytes": 8856
+    },
+    {
+      "path": "packages/phase2-339/qf2_puntos_estado.py",
+      "source": "phase2/submissions/339-agrupa-desde-cero-azar/qf2_puntos_estado.py",
+      "sha256": "30ea8b9f312e634f0a4e2418824867efa3ef9e8bc056d239dd0c434f605d1a67",
+      "bytes": 4214
+    },
+    {
+      "path": "packages/phase2-339/qf2_recolocado.py",
+      "source": "phase2/submissions/339-agrupa-desde-cero-azar/qf2_recolocado.py",
+      "sha256": "adabfe6479321bb1eea6f1cab87224c74fd7bda96819caea0875e51b4aed7617",
+      "bytes": 9603
+    },
+    {
+      "path": "packages/phase2-339/qf2_recolocado_ejemplos.py",
+      "source": "phase2/submissions/339-agrupa-desde-cero-azar/qf2_recolocado_ejemplos.py",
+      "sha256": "14cd8e4663ab8ec21dfb03ec21ba5169e324af5141eb3a189ee7203834a51f14",
+      "bytes": 5421
+    },
+    {
+      "path": "packages/phase2-339/qf2_recolocado_pares.py",
+      "source": "phase2/submissions/339-agrupa-desde-cero-azar/qf2_recolocado_pares.py",
+      "sha256": "9ba0235cccc0759aa9f69269fad5056527832a205ca43d36288092e113cc03aa",
+      "bytes": 3440
+    },
+    {
+      "path": "packages/phase2-339/qf2_reparto.py",
+      "source": "phase2/submissions/339-agrupa-desde-cero-azar/qf2_reparto.py",
+      "sha256": "f072f8fe53e4fdc08268f7e8cc8d05ff655674e6fc2a9eb56993aa73ed8bc093",
+      "bytes": 10157
+    },
+    {
+      "path": "packages/phase2-339/qf2_resumen.py",
+      "source": "phase2/submissions/339-agrupa-desde-cero-azar/qf2_resumen.py",
+      "sha256": "9efefb2a23d520446cf36e2e8821c9ce7696db5f4d6712e9f6d856919851357b",
+      "bytes": 3072
+    },
+    {
+      "path": "packages/phase2-339/qf2_union.py",
+      "source": "phase2/submissions/339-agrupa-desde-cero-azar/qf2_union.py",
+      "sha256": "d58ce4e2cc9c492cc8539d92f2d1ac97a69d41b5647b50207fb81da41579b3ed",
+      "bytes": 7034
+    },
+    {
+      "path": "packages/phase2-339/train.py",
+      "source": "phase2/submissions/339-agrupa-desde-cero-azar/train.py",
+      "sha256": "a7740e23b0e4b2b19b7087f19e2b0cae30c444464070fb6471cc7f834957e511",
+      "bytes": 113645
+    },
+    {
+      "path": "packages/phase2-356/BANDERAS",
+      "source": "phase2/submissions/356-denso40-reloj-charged/BANDERAS",
+      "sha256": "3f53f98cd895702b59e09dd1385f7a0c8b79cd9d1433fde627eb0313eced5f6c",
+      "bytes": 1053
+    },
+    {
+      "path": "packages/phase2-356/COMANDO",
+      "source": "phase2/submissions/356-denso40-reloj-charged/COMANDO",
+      "sha256": "ba1490aa743585bb491b864c0d15936c83c74c03a906d23a123f79d6a07d2196",
+      "bytes": 88
+    },
+    {
+      "path": "packages/phase2-356/ce_trozos.py",
+      "source": "phase2/submissions/356-denso40-reloj-charged/ce_trozos.py",
+      "sha256": "87137348d1628afb9aa2c40c40180f1f242b92596e66f0f751ff89daef9f7cf8",
+      "bytes": 4233
+    },
+    {
+      "path": "packages/phase2-356/cefa_nucleo.py",
+      "source": "phase2/submissions/356-denso40-reloj-charged/cefa_nucleo.py",
+      "sha256": "73a1f4ca8a97849ba4679af492c03ebb1a2bf2fd3d34ff199701f4db8933acc7",
+      "bytes": 4576
+    },
+    {
+      "path": "packages/phase2-356/cefa_perdida.py",
+      "source": "phase2/submissions/356-denso40-reloj-charged/cefa_perdida.py",
+      "sha256": "60a9ac4f94e448e44e34daadf8cba1e707493c6131db5dd280d6e31c5b455ad3",
+      "bytes": 2075
+    },
+    {
+      "path": "packages/phase2-356/envio/BANDERAS",
+      "source": "phase2/submissions/356-denso40-reloj-charged/envio/BANDERAS",
+      "sha256": "3f53f98cd895702b59e09dd1385f7a0c8b79cd9d1433fde627eb0313eced5f6c",
+      "bytes": 1053
+    },
+    {
+      "path": "packages/phase2-356/envio/COMANDO",
+      "source": "phase2/submissions/356-denso40-reloj-charged/envio/COMANDO",
+      "sha256": "ba1490aa743585bb491b864c0d15936c83c74c03a906d23a123f79d6a07d2196",
+      "bytes": 88
+    },
+    {
+      "path": "packages/phase2-356/envio/inference.py",
+      "source": "phase2/submissions/356-denso40-reloj-charged/envio/inference.py",
+      "sha256": "40cace5e521e271643c7352de067a53ecef046bc3a05e007ea029cbd601d3275",
+      "bytes": 2114
+    },
+    {
+      "path": "packages/phase2-356/envio/train.py",
+      "source": "phase2/submissions/356-denso40-reloj-charged/envio/train.py",
+      "sha256": "48841f03178fd3ac6ca99524762c32094f527e3785322a4b54e6fd098c16a158",
+      "bytes": 434917
+    },
+    {
+      "path": "packages/phase2-356/inference.py",
+      "source": "phase2/submissions/356-denso40-reloj-charged/inference.py",
+      "sha256": "40cace5e521e271643c7352de067a53ecef046bc3a05e007ea029cbd601d3275",
+      "bytes": 2114
+    },
+    {
+      "path": "packages/phase2-356/kernels/__init__.py",
+      "source": "phase2/submissions/356-denso40-reloj-charged/kernels/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "packages/phase2-356/kernels/emb_dw.py",
+      "source": "phase2/submissions/356-denso40-reloj-charged/kernels/emb_dw.py",
+      "sha256": "20655612b9a4117a2e58fac557cc48431810046712d83c20d59cafa413263207",
+      "bytes": 4684
+    },
+    {
+      "path": "packages/phase2-356/kernels/emb_op.py",
+      "source": "phase2/submissions/356-denso40-reloj-charged/kernels/emb_op.py",
+      "sha256": "77704339033d16fc1e8123411610459d29287d78c495cec8336dc1c916e6c7ce",
+      "bytes": 3699
+    },
+    {
+      "path": "packages/phase2-356/kernels/emb_puerta.py",
+      "source": "phase2/submissions/356-denso40-reloj-charged/kernels/emb_puerta.py",
+      "sha256": "dee18aaf3834211cac3457b3afcfda45a5f0bedafd5b8038e133b3707b6bc77d",
+      "bytes": 3216
+    },
+    {
+      "path": "packages/phase2-356/kernels/fp8_mlp_bwd_act.py",
+      "source": "phase2/submissions/356-denso40-reloj-charged/kernels/fp8_mlp_bwd_act.py",
+      "sha256": "73cdd01efeed6659e713641261b2bdab00b55eb669b4cf925a2554d99e22305f",
+      "bytes": 11255
+    },
+    {
+      "path": "packages/phase2-356/kernels/fp8_mlp_comun.py",
+      "source": "phase2/submissions/356-denso40-reloj-charged/kernels/fp8_mlp_comun.py",
+      "sha256": "58f07d29b61d7a7c0f14dceebcfaf5966191a3cc14c5ab88936ff19216ac20c5",
+      "bytes": 1698
+    },
+    {
+      "path": "packages/phase2-356/kernels/fp8_mlp_dw.py",
+      "source": "phase2/submissions/356-denso40-reloj-charged/kernels/fp8_mlp_dw.py",
+      "sha256": "7194212d54a58af64d733ef0a3e8475a57167d6d10c70ba18a70cea1a1d4c66b",
+      "bytes": 2562
+    },
+    {
+      "path": "packages/phase2-356/kernels/fp8_mlp_emula.py",
+      "source": "phase2/submissions/356-denso40-reloj-charged/kernels/fp8_mlp_emula.py",
+      "sha256": "9fbe967067dd68dc042e0a52fc48a73bab3ec4302d07ca3220f090ca843fee37",
+      "bytes": 1702
+    },
+    {
+      "path": "packages/phase2-356/kernels/fp8_mlp_fwd.py",
+      "source": "phase2/submissions/356-denso40-reloj-charged/kernels/fp8_mlp_fwd.py",
+      "sha256": "b7fc5cc1c328c96402b000da62df2ff5e2f99714baaee9d16f52094de583e5ab",
+      "bytes": 5574
+    },
+    {
+      "path": "packages/phase2-356/kernels/fp8_mlp_op.py",
+      "source": "phase2/submissions/356-denso40-reloj-charged/kernels/fp8_mlp_op.py",
+      "sha256": "31692cf0d83a8e2ed739753b1f428a6857aa5fefc4d745ca3b6e2fcd8dd9c3bc",
+      "bytes": 6889
+    },
+    {
+      "path": "packages/phase2-356/qf2_agrupa.py",
+      "source": "phase2/submissions/356-denso40-reloj-charged/qf2_agrupa.py",
+      "sha256": "d16fded1d84a8145fbd5bd7f7fc93d7da82484617344e76e2e8deefad0227a80",
+      "bytes": 9264
+    },
+    {
+      "path": "packages/phase2-356/qf2_agrupa_fuente.py",
+      "source": "phase2/submissions/356-denso40-reloj-charged/qf2_agrupa_fuente.py",
+      "sha256": "d6c1308dfa3164839723b8de88beb59eb871d7ac65f7d95ee94db67e2f635655",
+      "bytes": 1782
+    },
+    {
+      "path": "packages/phase2-356/qf2_brier.py",
+      "source": "phase2/submissions/356-denso40-reloj-charged/qf2_brier.py",
+      "sha256": "13f307fad4e70df09950b5221593cb425299025d055459dc1de821b8bb73fcee",
+      "bytes": 4628
+    },
+    {
+      "path": "packages/phase2-356/qf2_cola.py",
+      "source": "phase2/submissions/356-denso40-reloj-charged/qf2_cola.py",
+      "sha256": "7537f6a7b48eea907f58196d0d89748dc3991f242072a8e31a15d5bf1e0b801b",
+      "bytes": 3596
+    },
+    {
+      "path": "packages/phase2-356/qf2_corpus_constructor.py",
+      "source": "phase2/submissions/356-denso40-reloj-charged/qf2_corpus_constructor.py",
+      "sha256": "765cbaaf68cb837bd175f4b17342735d90db9eb42f320b72bc1f95ff5e754f37",
+      "bytes": 7648
+    },
+    {
+      "path": "packages/phase2-356/qf2_corpus_mezcla.py",
+      "source": "phase2/submissions/356-denso40-reloj-charged/qf2_corpus_mezcla.py",
+      "sha256": "0993d41392bc8c79cd91d6d16b17b2842b39c6ba13a0b386bde64e2968285ffe",
+      "bytes": 6771
+    },
+    {
+      "path": "packages/phase2-356/qf2_corpus_tabla.py",
+      "source": "phase2/submissions/356-denso40-reloj-charged/qf2_corpus_tabla.py",
+      "sha256": "ce74808a070dfc38bdc0fd7e80662e8fe23bbf5315620514946f682e538bd74b",
+      "bytes": 6654
+    },
+    {
+      "path": "packages/phase2-356/qf2_delta_arbol.py",
+      "source": "phase2/submissions/356-denso40-reloj-charged/qf2_delta_arbol.py",
+      "sha256": "e30524ea5c490cca4bf70be93e3fd79cfc509c6309e6215deb3af0c5018beb92",
+      "bytes": 3447
+    },
+    {
+      "path": "packages/phase2-356/qf2_delta_contexto.py",
+      "source": "phase2/submissions/356-denso40-reloj-charged/qf2_delta_contexto.py",
+      "sha256": "dd1318659414ccbe51a5a500bbf64e224cff5bc2cb74624f3b6b7375e021da8b",
+      "bytes": 3895
+    },
+    {
+      "path": "packages/phase2-356/qf2_diff.py",
+      "source": "phase2/submissions/356-denso40-reloj-charged/qf2_diff.py",
+      "sha256": "95df4b696c203f8ee34d9de520a6be81ab5b82be4ab27d9985c78c9872a28a44",
+      "bytes": 3016
+    },
+    {
+      "path": "packages/phase2-356/qf2_equilibrio.py",
+      "source": "phase2/submissions/356-denso40-reloj-charged/qf2_equilibrio.py",
+      "sha256": "4c71593e7d568dcf95be02afa42ef3240b67433653f4f290d3b34567bf65c71a",
+      "bytes": 6946
+    },
+    {
+      "path": "packages/phase2-356/qf2_filas.py",
+      "source": "phase2/submissions/356-denso40-reloj-charged/qf2_filas.py",
+      "sha256": "b9cfcbb7d80f71c90c71c8dda950ab5ee024991dbd79f918c3f230daf66f2838",
+      "bytes": 7157
+    },
+    {
+      "path": "packages/phase2-356/qf2_flujo.py",
+      "source": "phase2/submissions/356-denso40-reloj-charged/qf2_flujo.py",
+      "sha256": "688b41979e7c4190ee2c0d9691319c846396a4624307188b96d4690fc937b154",
+      "bytes": 9272
+    },
+    {
+      "path": "packages/phase2-356/qf2_franjas.py",
+      "source": "phase2/submissions/356-denso40-reloj-charged/qf2_franjas.py",
+      "sha256": "6c2e104b2e17507e114aa63844ac2ddd8e42dcdc8dac73f2b1c8bd893f92ea5f",
+      "bytes": 5300
+    },
+    {
+      "path": "packages/phase2-356/qf2_guarda.py",
+      "source": "phase2/submissions/356-denso40-reloj-charged/qf2_guarda.py",
+      "sha256": "5a35e41827af562c83f15018e3769990886805e759d9cd164374fbc160a34f2f",
+      "bytes": 2039
+    },
+    {
+      "path": "packages/phase2-356/qf2_guardado_anticipado.py",
+      "source": "phase2/submissions/356-denso40-reloj-charged/qf2_guardado_anticipado.py",
+      "sha256": "2fb34d1caf37c934b3fcec188d822b5fc4513f4146774f2000a6159121ea749c",
+      "bytes": 4673
+    },
+    {
+      "path": "packages/phase2-356/qf2_hilos_aten.py",
+      "source": "phase2/submissions/356-denso40-reloj-charged/qf2_hilos_aten.py",
+      "sha256": "130206d1c8b5d64977da4114ca4a4188571712b5fd2e244e8657c8938e1b7372",
+      "bytes": 1469
+    },
+    {
+      "path": "packages/phase2-356/qf2_hilos_nice.py",
+      "source": "phase2/submissions/356-denso40-reloj-charged/qf2_hilos_nice.py",
+      "sha256": "e4cbf8ecbada9a613c06695cccb1fabd39b4b249ab7842b434ee2a434d7bb23b",
+      "bytes": 1254
+    },
+    {
+      "path": "packages/phase2-356/qf2_inicio.py",
+      "source": "phase2/submissions/356-denso40-reloj-charged/qf2_inicio.py",
+      "sha256": "7e7737eade5cd7ca91ff2c2a5dc7773eb05b01b399dd47c40a29393e3b7ebe8b",
+      "bytes": 6766
+    },
+    {
+      "path": "packages/phase2-356/qf2_lotes.py",
+      "source": "phase2/submissions/356-denso40-reloj-charged/qf2_lotes.py",
+      "sha256": "f266696380f13bc335c07c859d8a10f7e4ce8e39229bd28eb24ae6d71d975964",
+      "bytes": 2178
+    },
+    {
+      "path": "packages/phase2-356/qf2_memhost_canon.py",
+      "source": "phase2/submissions/356-denso40-reloj-charged/qf2_memhost_canon.py",
+      "sha256": "75327e1f2b9e0bc20c8f61d758b679362a28a9dc3b3b9b7e17057a93ba716847",
+      "bytes": 1031
+    },
+    {
+      "path": "packages/phase2-356/qf2_memhost_cfg.py",
+      "source": "phase2/submissions/356-denso40-reloj-charged/qf2_memhost_cfg.py",
+      "sha256": "d7fd312f6824f29a71e4240d6bcc9370a3b38a6404d48a075d1e72d90cf92c2c",
+      "bytes": 5403
+    },
+    {
+      "path": "packages/phase2-356/qf2_memhost_ckpt.py",
+      "source": "phase2/submissions/356-denso40-reloj-charged/qf2_memhost_ckpt.py",
+      "sha256": "de697c8139217ca2850c64c4ed7f82289ea51398bf24b4938f393815d62e64a8",
+      "bytes": 3716
+    },
+    {
+      "path": "packages/phase2-356/qf2_memhost_cuantiza.py",
+      "source": "phase2/submissions/356-denso40-reloj-charged/qf2_memhost_cuantiza.py",
+      "sha256": "c6e734cc26e269d072f60e172add49432ec67c87657ffbf60a724de45593f425",
+      "bytes": 1191
+    },
+    {
+      "path": "packages/phase2-356/qf2_memhost_hash.py",
+      "source": "phase2/submissions/356-denso40-reloj-charged/qf2_memhost_hash.py",
+      "sha256": "5dbfd036dcf2ee730a21e3dba81b582cd0f5d9ab056f0887575d7b83c8c14390",
+      "bytes": 2948
+    },
+    {
+      "path": "packages/phase2-356/qf2_memhost_hilo.py",
+      "source": "phase2/submissions/356-denso40-reloj-charged/qf2_memhost_hilo.py",
+      "sha256": "7c1eb6ca1049991ed33ee34e585ef1c30b7d3604a6dc4c1bd68f387da37f1eb0",
+      "bytes": 8293
+    },
+    {
+      "path": "packages/phase2-356/qf2_memhost_hojas.py",
+      "source": "phase2/submissions/356-denso40-reloj-charged/qf2_memhost_hojas.py",
+      "sha256": "5344e45b5c18e26933c6a13fa2244fb6e9f65a3732c5490544669eb913324964",
+      "bytes": 1564
+    },
+    {
+      "path": "packages/phase2-356/qf2_memhost_intercambio.py",
+      "source": "phase2/submissions/356-denso40-reloj-charged/qf2_memhost_intercambio.py",
+      "sha256": "55f11dfda2130c2c3b1ac42ad4ee398ab562137718d651419e5e2657621f1763",
+      "bytes": 2265
+    },
+    {
+      "path": "packages/phase2-356/qf2_memhost_opt.py",
+      "source": "phase2/submissions/356-denso40-reloj-charged/qf2_memhost_opt.py",
+      "sha256": "a66324646c92885aa49ed30d4a4d85c167d52f119683a52bac4b620c6830c49a",
+      "bytes": 2460
+    },
+    {
+      "path": "packages/phase2-356/qf2_memhost_rapido.py",
+      "source": "phase2/submissions/356-denso40-reloj-charged/qf2_memhost_rapido.py",
+      "sha256": "c27968d2c10bf0804a07c2ee67f6f108f8ede0777c7e05087108158335d4d317",
+      "bytes": 6203
+    },
+    {
+      "path": "packages/phase2-356/qf2_memhost_sincro.py",
+      "source": "phase2/submissions/356-denso40-reloj-charged/qf2_memhost_sincro.py",
+      "sha256": "3fe4b8092d632d5bacb9ab1d2c31ffe62a3e9c1af5dc809a6f5519b82f86884d",
+      "bytes": 2390
+    },
+    {
+      "path": "packages/phase2-356/qf2_memhost_sitios.py",
+      "source": "phase2/submissions/356-denso40-reloj-charged/qf2_memhost_sitios.py",
+      "sha256": "c2f9837b746aabadccef3068a6f38e450d35f3e1177502790fb4e34dd2f6961f",
+      "bytes": 4429
+    },
+    {
+      "path": "packages/phase2-356/qf2_memhost_tabla.py",
+      "source": "phase2/submissions/356-denso40-reloj-charged/qf2_memhost_tabla.py",
+      "sha256": "011eb804e89d6f3f03abaf3c3258a5411dd94acdde3152ccfff47fb85742972b",
+      "bytes": 3887
+    },
+    {
+      "path": "packages/phase2-356/qf2_memhost_traza.py",
+      "source": "phase2/submissions/356-denso40-reloj-charged/qf2_memhost_traza.py",
+      "sha256": "a94ab428a50bb4b9c67b05f7f1e5d71d9a45a37b15851438b4c4390ef7b9eba9",
+      "bytes": 3196
+    },
+    {
+      "path": "packages/phase2-356/qf2_memoria.py",
+      "source": "phase2/submissions/356-denso40-reloj-charged/qf2_memoria.py",
+      "sha256": "39b511f94419d60715a279fefb7a57bda31761629ff1a910d8d3706de555a36a",
+      "bytes": 6865
+    },
+    {
+      "path": "packages/phase2-356/qf2_memoria_a2a.py",
+      "source": "phase2/submissions/356-denso40-reloj-charged/qf2_memoria_a2a.py",
+      "sha256": "3a22ecb919d544e98f9a5652a7b0eecc7a45b9c391e3c67645c68c9ed6261af4",
+      "bytes": 4436
+    },
+    {
+      "path": "packages/phase2-356/qf2_memoria_anfitrion.py",
+      "source": "phase2/submissions/356-denso40-reloj-charged/qf2_memoria_anfitrion.py",
+      "sha256": "e4c0b997464e55dfac66d3379ea0faa244a494470cd218c35de2c811876a0c03",
+      "bytes": 2369
+    },
+    {
+      "path": "packages/phase2-356/qf2_memoria_ckpt.py",
+      "source": "phase2/submissions/356-denso40-reloj-charged/qf2_memoria_ckpt.py",
+      "sha256": "a06df4c8a5c7f99141bd6f89967b2ad0f52c0b3d23bfcf219c012516b286d60d",
+      "bytes": 1495
+    },
+    {
+      "path": "packages/phase2-356/qf2_memoria_opt.py",
+      "source": "phase2/submissions/356-denso40-reloj-charged/qf2_memoria_opt.py",
+      "sha256": "a7a4116b9d643763ac20dc6b3d35b21ba473e7d635c1289facddc1ad8efb68d7",
+      "bytes": 1414
+    },
+    {
+      "path": "packages/phase2-356/qf2_mos.py",
+      "source": "phase2/submissions/356-denso40-reloj-charged/qf2_mos.py",
+      "sha256": "0202f6230fc6f90cb9322b97e4e30bd5d0a85b9c96f902954a35165ebb60e0f4",
+      "bytes": 5161
+    },
+    {
+      "path": "packages/phase2-356/qf2_muon_maestro.py",
+      "source": "phase2/submissions/356-denso40-reloj-charged/qf2_muon_maestro.py",
+      "sha256": "733fd8a860783e32b413306bb61f72d09c4e83d416b10cf28784c01a1c9c3153",
+      "bytes": 3579
+    },
+    {
+      "path": "packages/phase2-356/qf2_ngramas.py",
+      "source": "phase2/submissions/356-denso40-reloj-charged/qf2_ngramas.py",
+      "sha256": "95522fb51527d8e9a771643f476dd21dcf4f2dbcf676f28a66c13ea9d0a93992",
+      "bytes": 2604
+    },
+    {
+      "path": "packages/phase2-356/qf2_objetivos.py",
+      "source": "phase2/submissions/356-denso40-reloj-charged/qf2_objetivos.py",
+      "sha256": "a815892656a0ea54dc8ee65e945b77742604dbbbfd1d7411795db5e8f04cffbd",
+      "bytes": 6895
+    },
+    {
+      "path": "packages/phase2-356/qf2_opt_compilado.py",
+      "source": "phase2/submissions/356-denso40-reloj-charged/qf2_opt_compilado.py",
+      "sha256": "b2d41de10b0088dd4e40e22a3aeb560df603699fd68e247734da81d98721e02a",
+      "bytes": 5472
+    },
+    {
+      "path": "packages/phase2-356/qf2_peso_contexto.py",
+      "source": "phase2/submissions/356-denso40-reloj-charged/qf2_peso_contexto.py",
+      "sha256": "c424899aa62bb4c247ecf36adcdc264ce0755ec47b7142efc52e070bc64f2998",
+      "bytes": 7825
+    },
+    {
+      "path": "packages/phase2-356/qf2_peso_rasgos.py",
+      "source": "phase2/submissions/356-denso40-reloj-charged/qf2_peso_rasgos.py",
+      "sha256": "58f59c87b96ddde5fbc1055bd6375f4775f775a1eab526dee8f82b94c84b7f52",
+      "bytes": 4239
+    },
+    {
+      "path": "packages/phase2-356/qf2_pkm.py",
+      "source": "phase2/submissions/356-denso40-reloj-charged/qf2_pkm.py",
+      "sha256": "e53c70057290440c328d3d09ca5a9332e70a552aa1cab02ef144e1520439f59b",
+      "bytes": 3700
+    },
+    {
+      "path": "packages/phase2-356/qf2_plano.py",
+      "source": "phase2/submissions/356-denso40-reloj-charged/qf2_plano.py",
+      "sha256": "77e458d43a0747161d00c88e9d6a45e08d46450b2385f1cea6d6b669fe79272a",
+      "bytes": 936
+    },
+    {
+      "path": "packages/phase2-356/qf2_precarga.py",
+      "source": "phase2/submissions/356-denso40-reloj-charged/qf2_precarga.py",
+      "sha256": "2cbbe9552c0c8942780ec09fb8846445ebaa3cc49f931aeb73ae4b1781a664b4",
+      "bytes": 4462
+    },
+    {
+      "path": "packages/phase2-356/qf2_promedio.py",
+      "source": "phase2/submissions/356-denso40-reloj-charged/qf2_promedio.py",
+      "sha256": "3f4806a1e3859cb1312af61ffe68c2d49c61cae4ce704bafc0ad8b2c799b0148",
+      "bytes": 2047
+    },
+    {
+      "path": "packages/phase2-356/qf2_puntos.py",
+      "source": "phase2/submissions/356-denso40-reloj-charged/qf2_puntos.py",
+      "sha256": "91188c483dc3eab27482625b18d3e552c0ad8fbe66f1ba9a19ee5f6b7cb055de",
+      "bytes": 8856
+    },
+    {
+      "path": "packages/phase2-356/qf2_puntos_estado.py",
+      "source": "phase2/submissions/356-denso40-reloj-charged/qf2_puntos_estado.py",
+      "sha256": "30ea8b9f312e634f0a4e2418824867efa3ef9e8bc056d239dd0c434f605d1a67",
+      "bytes": 4214
+    },
+    {
+      "path": "packages/phase2-356/qf2_recolocado.py",
+      "source": "phase2/submissions/356-denso40-reloj-charged/qf2_recolocado.py",
+      "sha256": "adabfe6479321bb1eea6f1cab87224c74fd7bda96819caea0875e51b4aed7617",
+      "bytes": 9603
+    },
+    {
+      "path": "packages/phase2-356/qf2_recolocado_ejemplos.py",
+      "source": "phase2/submissions/356-denso40-reloj-charged/qf2_recolocado_ejemplos.py",
+      "sha256": "14cd8e4663ab8ec21dfb03ec21ba5169e324af5141eb3a189ee7203834a51f14",
+      "bytes": 5421
+    },
+    {
+      "path": "packages/phase2-356/qf2_recolocado_pares.py",
+      "source": "phase2/submissions/356-denso40-reloj-charged/qf2_recolocado_pares.py",
+      "sha256": "9ba0235cccc0759aa9f69269fad5056527832a205ca43d36288092e113cc03aa",
+      "bytes": 3440
+    },
+    {
+      "path": "packages/phase2-356/qf2_reparto.py",
+      "source": "phase2/submissions/356-denso40-reloj-charged/qf2_reparto.py",
+      "sha256": "f072f8fe53e4fdc08268f7e8cc8d05ff655674e6fc2a9eb56993aa73ed8bc093",
+      "bytes": 10157
+    },
+    {
+      "path": "packages/phase2-356/qf2_resumen.py",
+      "source": "phase2/submissions/356-denso40-reloj-charged/qf2_resumen.py",
+      "sha256": "9efefb2a23d520446cf36e2e8821c9ce7696db5f4d6712e9f6d856919851357b",
+      "bytes": 3072
+    },
+    {
+      "path": "packages/phase2-356/qf2_union.py",
+      "source": "phase2/submissions/356-denso40-reloj-charged/qf2_union.py",
+      "sha256": "d58ce4e2cc9c492cc8539d92f2d1ac97a69d41b5647b50207fb81da41579b3ed",
+      "bytes": 7034
+    },
+    {
+      "path": "packages/phase2-356/train.py",
+      "source": "phase2/submissions/356-denso40-reloj-charged/train.py",
+      "sha256": "8b76219eeb040ff4286bd87eb6620f943f0da2e61ff64c4e3a10a2c118b4e089",
+      "bytes": 115071
+    },
+    {
+      "path": "packages/phase1-48/train.py",
+      "source": "phase1/submissions/48-pila2-pb-adw8-epi-kam-fep-acum-s48/train.py",
+      "sha256": "7196a7ce6dc4bfe5e276026217bd34f38329a9c364212fbd248cfbe9390c7917",
+      "bytes": 308275
+    },
+    {
+      "path": "packages/phase1-48/COMANDO",
+      "source": "phase1/submissions/48-pila2-pb-adw8-epi-kam-fep-acum-s48/COMANDO",
+      "sha256": "9da061caaba96e59f2c58076f3a2e054ec873e784643caa1b052f33f237a2b28",
+      "bytes": 129
+    },
+    {
+      "path": "packages/phase1-48/BUILD",
+      "source": "phase1/submissions/48-pila2-pb-adw8-epi-kam-fep-acum-s48/BUILD",
+      "sha256": "e026f0264a37d9868e53a57f89d985e615adc00f953969e92b7133040f5a6286",
+      "bytes": 363
+    },
+    {
+      "path": "packages/phase1-48/SEMILLA",
+      "source": "phase1/submissions/48-pila2-pb-adw8-epi-kam-fep-acum-s48/SEMILLA",
+      "sha256": "654ee9da442fa353f59f11beb688fc7f76c8de62a6c18b2a181fdde2a27cc3ef",
+      "bytes": 3
+    },
+    {
+      "path": "experiments/causal-prefix-cache/cache_prefijo.py",
+      "source": "phase2/tools/diagnostico/cache_prefijo.py",
+      "sha256": "07af15ac692ddc3bc530ff6f06553b977e71e532484e8e19bc713e67a8973818",
+      "bytes": 1791
+    },
+    {
+      "path": "experiments/causal-prefix-cache/cache_prefijo_modelo.py",
+      "source": "phase2/tools/diagnostico/cache_prefijo_modelo.py",
+      "sha256": "5c1ddf62da2a78fd7c1bc1d379ad7487194290fdf5041944ebd184e556650b7c",
+      "bytes": 1008
+    },
+    {
+      "path": "experiments/causal-prefix-cache/prueba_cache_prefijo.py",
+      "source": "phase2/tools/diagnostico/prueba_cache_prefijo.py",
+      "sha256": "e689ba89a66f107db50bf390df9d62c4bbe03f389c241c6367996398d5783ea9",
+      "bytes": 4988
+    },
+    {
+      "path": "experiments/shared-prefix-tails/arbol.py",
+      "source": "phase2/final-poc/20261101T144559Z/arbol.py",
+      "sha256": "2a68c13678e4bc0dafa13e0d704705c571bd2b197070a47433aabc68d5f8f943",
+      "bytes": 4759
+    },
+    {
+      "path": "experiments/shared-prefix-tails/datos_fit.py",
+      "source": "phase2/final-poc/20261101T144559Z/datos_fit.py",
+      "sha256": "9df1aff204a86eb9d3d973fd1a0acd92cb302b3a79ee2bc931870fc3cd32f77c",
+      "bytes": 6660
+    },
+    {
+      "path": "experiments/shared-prefix-tails/entry.py",
+      "source": "phase2/final-poc/20261101T144559Z/entry.py",
+      "sha256": "b5a328e32902f892591d74d10248630702f60e56b60da1da215dc0944c752f83",
+      "bytes": 10549
+    },
+    {
+      "path": "experiments/shared-prefix-tails/evaluar_resultado.py",
+      "source": "phase2/final-poc/20261101T144559Z/evaluar_resultado.py",
+      "sha256": "1e8f673682c4d61907d58fe41af18db55352d6d3d7ed7fc5bcf29eb36b24cbe0",
+      "bytes": 2120
+    },
+    {
+      "path": "experiments/shared-prefix-tails/fit_cola.py",
+      "source": "phase2/final-poc/20261101T144559Z/fit_cola.py",
+      "sha256": "7e12af736263e06f412deb034d340be1dc5116fdff2639f5c8b2366554ef31d7",
+      "bytes": 7893
+    },
+    {
+      "path": "experiments/shared-prefix-tails/fit_driver.py",
+      "source": "phase2/final-poc/20261101T144559Z/fit_driver.py",
+      "sha256": "f2afe583f504ae31df2f3d25d20becdf0da50bc0df8aaf4d252d41de836382eb",
+      "bytes": 7946
+    },
+    {
+      "path": "experiments/shared-prefix-tails/metricas.py",
+      "source": "phase2/final-poc/20261101T144559Z/metricas.py",
+      "sha256": "60ad52c0efa51adcc24b2fdf4200c31675374ef783879b89d0d20bd4a47253a2",
+      "bytes": 4517
+    },
+    {
+      "path": "experiments/shared-prefix-tails/split.py",
+      "source": "phase2/final-poc/20261101T144559Z/split.py",
+      "sha256": "e3fd5a51e87acdfe6b03988906ec88d88705b48b0bb334e0570c43600a086abb",
+      "bytes": 4304
+    }
+  ]
+}
